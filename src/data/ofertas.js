@@ -1,0 +1,51 @@
+/** Productos para la página "Ofertas de Temporada" */
+export const ofertasProducts = [
+  {
+    id: 'o1',
+    title: 'Bikini triángulo – Oferta verano',
+    image: 'https://images.unsplash.com/photo-1576567739864-875f1c87288d?w=400&q=80',
+    sizes: ['S', 'M', 'L'],
+    price: '69.900',
+    whatsappMessage: 'Hola, me interesa el Bikini triángulo en oferta',
+  },
+  {
+    id: 'o2',
+    title: 'Pijama corto satén – Precio especial',
+    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80',
+    sizes: ['M', 'L'],
+    price: '72.900',
+    whatsappMessage: 'Hola, me interesa el Pijama corto satén en oferta',
+  },
+  {
+    id: 'o3',
+    title: 'Enterizo negro – Temporada',
+    image: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&q=80',
+    sizes: ['S', 'M', 'L'],
+    price: '74.900',
+    whatsappMessage: 'Hola, me interesa el Enterizo negro en oferta',
+  },
+  {
+    id: 'o4',
+    title: 'Conjunto pijama – 2ª pieza a mitad',
+    image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&q=80',
+    sizes: ['S', 'M', 'L'],
+    price: '78.900',
+    whatsappMessage: 'Hola, me interesa el Conjunto pijama en oferta',
+  },
+  {
+    id: 'o5',
+    title: 'Bikini high waist – Oferta',
+    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&q=80',
+    sizes: ['S', 'M', 'L'],
+    price: '71.900',
+    whatsappMessage: 'Hola, me interesa el Bikini high waist en oferta',
+  },
+  {
+    id: 'o6',
+    title: 'Pijama estampado – Especial',
+    image: 'https://images.unsplash.com/photo-1585487000143-668c40a60e5e?w=400&q=80',
+    sizes: ['M', 'L'],
+    price: '76.900',
+    whatsappMessage: 'Hola, me interesa el Pijama estampado en oferta',
+  },
+];

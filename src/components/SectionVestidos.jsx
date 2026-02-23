@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { fadeInUpOptions } from '../animations';
 import './SectionBlock.css';
@@ -25,9 +26,9 @@ export default function SectionVestidos() {
             Explora nuestra selección editorial de piezas diseñadas para elevar tu estilo bajo el sol.
             Un equilibrio perfecto entre la sofisticación artesanal y la comodidad suprema.
           </p>
-          <a href="#/catalogo" className="section-block__btn section-block__btn--outline">
+          <Link to="/vestidos-de-bano" className="section-block__btn section-block__btn--outline">
             Ver Colección
-          </a>
+          </Link>
         </div>
       </div>
     </motion.section>

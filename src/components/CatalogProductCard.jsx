@@ -33,7 +33,7 @@ export default function CatalogProductCard({ product }) {
         rel="noopener noreferrer"
         className="catalog-product-card__btn"
       >
-        Añadir a la Cesta
+        Pregunta por Whatsapp
       </a>
     </motion.article>
   );

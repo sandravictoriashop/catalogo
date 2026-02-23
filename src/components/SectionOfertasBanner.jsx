@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { fadeInOptions } from '../animations';
 import './SectionOfertasBanner.css';
@@ -18,9 +19,9 @@ export default function SectionOfertasBanner() {
           Explora nuestra curaduría de temporada. Diseños exclusivos de vestidos de baño y pijamas
           boutique con beneficios especiales. El balance perfecto entre estilo y descanso.
         </p>
-        <a href="#/catalogo" className="ofertas-banner__btn">
+        <Link to="/ofertas" className="ofertas-banner__btn">
           Ir a ofertas
-        </a>
+        </Link>
       </div>
     </motion.section>
   );

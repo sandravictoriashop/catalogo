@@ -15,7 +15,7 @@ export default function HeroSection() {
         >
           <div className="hero__overlay">
             <h2 className="hero__title">Catálogo</h2>
-            <Link to="/catalogo" className="hero__btn">Explorar Catálogo</Link>
+            <Link to="/vestidos-de-bano" className="hero__btn">Explorar Catálogo</Link>
           </div>
         </motion.div>
         <motion.div
@@ -26,7 +26,7 @@ export default function HeroSection() {
         >
           <div className="hero__overlay">
             <h2 className="hero__title">Ofertas</h2>
-            <Link to="/" className="hero__btn">Ver Especiales</Link>
+            <Link to="/ofertas" className="hero__btn">Ver Especiales</Link>
           </div>
         </motion.div>
       </div>

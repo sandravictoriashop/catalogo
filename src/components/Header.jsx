@@ -46,9 +46,9 @@ export default function Header() {
             <span className="header__hamburger-bar" />
           </button>
           <Link to="/" onClick={closeMenu}>Inicio</Link>
-          <Link to="/catalogo" onClick={closeMenu}>Vestidos de Baño</Link>
-          <Link to="/" onClick={closeMenu}>Pijamas</Link>
-          <Link to="/" onClick={closeMenu}>Ofertas</Link>
+          <Link to="/vestidos-de-bano" onClick={closeMenu}>Vestidos de Baño</Link>
+          <Link to="/pijamas" onClick={closeMenu}>Pijamas</Link>
+          <Link to="/ofertas" onClick={closeMenu}>Ofertas</Link>
         </nav>
       </div>
 

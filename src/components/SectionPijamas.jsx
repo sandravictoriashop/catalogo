@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { fadeInUpOptions } from '../animations';
 import './SectionBlock.css';
@@ -20,9 +21,9 @@ export default function SectionPijamas() {
             tejidos premium de exquisita suavidad, cada pieza está diseñada para elevar tus noches
             y momentos de descanso con elegancia.
           </p>
-          <a href="#/catalogo" className="section-block__btn section-block__btn--outline">
+          <Link to="/pijamas" className="section-block__btn section-block__btn--outline">
             Explorar Colección
-          </a>
+          </Link>
         </div>
         <div className="section-block__image-wrap">
           <img

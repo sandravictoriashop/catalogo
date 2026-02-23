@@ -1,0 +1,51 @@
+/** Productos para la página "Pijamas" */
+export const pijamasProducts = [
+  {
+    id: 'p1',
+    title: 'Pijama corto en satén blush',
+    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80',
+    sizes: ['S', 'M', 'L'],
+    price: '79.900',
+    whatsappMessage: 'Hola, me interesa el Pijama corto en satén blush',
+  },
+  {
+    id: 'p2',
+    title: 'Conjunto pijama pantalonera verde menta',
+    image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&q=80',
+    sizes: ['S', 'M', 'L'],
+    price: '89.900',
+    whatsappMessage: 'Hola, me interesa el Conjunto pijama pantalonera verde menta',
+  },
+  {
+    id: 'p3',
+    title: 'Pijama de dos piezas estampado floral',
+    image: 'https://images.unsplash.com/photo-1585487000143-668c40a60e5e?w=400&q=80',
+    sizes: ['M', 'L'],
+    price: '85.900',
+    whatsappMessage: 'Hola, me interesa el Pijama de dos piezas estampado floral',
+  },
+  {
+    id: 'p4',
+    title: 'Pijama largo en algodón crudo',
+    image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&q=80',
+    sizes: ['S', 'M', 'L'],
+    price: '94.900',
+    whatsappMessage: 'Hola, me interesa el Pijama largo en algodón crudo',
+  },
+  {
+    id: 'p5',
+    title: 'Short y camisola pijama negro',
+    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80',
+    sizes: ['S', 'M', 'L'],
+    price: '82.900',
+    whatsappMessage: 'Hola, me interesa el Short y camisola pijama negro',
+  },
+  {
+    id: 'p6',
+    title: 'Pijama seda lavanda con encaje',
+    image: 'https://images.unsplash.com/photo-1585487000143-668c40a60e5e?w=400&q=80',
+    sizes: ['S', 'M'],
+    price: '99.900',
+    whatsappMessage: 'Hola, me interesa el Pijama seda lavanda con encaje',
+  },
+];
