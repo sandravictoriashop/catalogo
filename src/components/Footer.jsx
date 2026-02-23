@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { getWhatsAppLink } from '../data/products';
+import { getWhatsAppLink } from '../data/config';
 import { fadeInOptions } from '../animations';
 import './Footer.css';
 

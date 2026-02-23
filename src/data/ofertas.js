@@ -6,7 +6,8 @@ export const ofertasProducts = [
     image: 'https://images.unsplash.com/photo-1576567739864-875f1c87288d?w=400&q=80',
     sizes: ['S', 'M', 'L'],
     price: '69.900',
-    whatsappMessage: 'Hola, me interesa el Bikini triángulo en oferta',
+    oldPrice: '89.900',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'o2',
@@ -14,7 +15,8 @@ export const ofertasProducts = [
     image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80',
     sizes: ['M', 'L'],
     price: '72.900',
-    whatsappMessage: 'Hola, me interesa el Pijama corto satén en oferta',
+    oldPrice: '94.900',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'o3',
@@ -22,7 +24,8 @@ export const ofertasProducts = [
     image: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&q=80',
     sizes: ['S', 'M', 'L'],
     price: '74.900',
-    whatsappMessage: 'Hola, me interesa el Enterizo negro en oferta',
+    oldPrice: '99.900',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'o4',
@@ -30,7 +33,8 @@ export const ofertasProducts = [
     image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&q=80',
     sizes: ['S', 'M', 'L'],
     price: '78.900',
-    whatsappMessage: 'Hola, me interesa el Conjunto pijama en oferta',
+    oldPrice: '89.900',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'o5',
@@ -38,7 +42,8 @@ export const ofertasProducts = [
     image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&q=80',
     sizes: ['S', 'M', 'L'],
     price: '71.900',
-    whatsappMessage: 'Hola, me interesa el Bikini high waist en oferta',
+    oldPrice: '89.900',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'o6',
@@ -46,6 +51,7 @@ export const ofertasProducts = [
     image: 'https://images.unsplash.com/photo-1585487000143-668c40a60e5e?w=400&q=80',
     sizes: ['M', 'L'],
     price: '76.900',
-    whatsappMessage: 'Hola, me interesa el Pijama estampado en oferta',
+    oldPrice: '85.900',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
 ];

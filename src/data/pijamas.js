@@ -6,7 +6,7 @@ export const pijamasProducts = [
     image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80',
     sizes: ['S', 'M', 'L'],
     price: '79.900',
-    whatsappMessage: 'Hola, me interesa el Pijama corto en satén blush',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'p2',
@@ -14,7 +14,7 @@ export const pijamasProducts = [
     image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&q=80',
     sizes: ['S', 'M', 'L'],
     price: '89.900',
-    whatsappMessage: 'Hola, me interesa el Conjunto pijama pantalonera verde menta',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'p3',
@@ -22,7 +22,7 @@ export const pijamasProducts = [
     image: 'https://images.unsplash.com/photo-1585487000143-668c40a60e5e?w=400&q=80',
     sizes: ['M', 'L'],
     price: '85.900',
-    whatsappMessage: 'Hola, me interesa el Pijama de dos piezas estampado floral',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'p4',
@@ -30,7 +30,7 @@ export const pijamasProducts = [
     image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&q=80',
     sizes: ['S', 'M', 'L'],
     price: '94.900',
-    whatsappMessage: 'Hola, me interesa el Pijama largo en algodón crudo',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'p5',
@@ -38,7 +38,7 @@ export const pijamasProducts = [
     image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80',
     sizes: ['S', 'M', 'L'],
     price: '82.900',
-    whatsappMessage: 'Hola, me interesa el Short y camisola pijama negro',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'p6',
@@ -46,6 +46,6 @@ export const pijamasProducts = [
     image: 'https://images.unsplash.com/photo-1585487000143-668c40a60e5e?w=400&q=80',
     sizes: ['S', 'M'],
     price: '99.900',
-    whatsappMessage: 'Hola, me interesa el Pijama seda lavanda con encaje',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
 ];

@@ -1,12 +1,14 @@
 import { motion } from 'framer-motion';
-import { getWhatsAppLink } from '../data/products';
+import { getWhatsAppLink, formatWhatsAppMessage } from '../data/config';
 import { cardHover } from '../animations';
 import './CatalogProductCard.css';
 
 export default function CatalogProductCard({ product }) {
-  const { title, image, sizes, price, whatsappMessage } = product;
-  const addToCartMessage = whatsappMessage.replace('me interesa', 'quisiera añadir a la cesta');
-  const whatsappUrl = getWhatsAppLink(addToCartMessage);
+  const { title, image, sizes, price, oldPrice, whatsappMessage } = product;
+  const message = whatsappMessage
+    ? formatWhatsAppMessage(whatsappMessage, product).replace('me interesa', 'quisiera añadir a la cesta')
+    : '';
+  const whatsappUrl = getWhatsAppLink(message);
 
   return (
     <motion.article
@@ -21,7 +23,12 @@ export default function CatalogProductCard({ product }) {
         <img src={image} alt={title} className="catalog-product-card__image" loading="lazy" />
       </div>
       <h3 className="catalog-product-card__title">{title}</h3>
-      <p className="catalog-product-card__price">${price}</p>
+      <div className="catalog-product-card__price-wrap">
+        {oldPrice != null && oldPrice !== '' && (
+          <span className="catalog-product-card__price-old">${oldPrice}</span>
+        )}
+        <span className="catalog-product-card__price">${price}</span>
+      </div>
       <div className="catalog-product-card__sizes">
         {sizes.map((size) => (
           <span key={size} className="catalog-product-card__size-pill">{size}</span>

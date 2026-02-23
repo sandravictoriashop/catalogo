@@ -2,35 +2,36 @@
 export const vestidosProducts = [
   {
     id: 'v1',
-    title: 'Bikini amarillo con detalle creativo',
-    image: 'https://images.unsplash.com/photo-1576567739864-875f1c87288d?w=400&q=80',
-    sizes: ['S', 'M', 'L'],
-    price: '89.900',
-    whatsappMessage: 'Hola, me interesa el Bikini amarillo con detalle creativo',
+    title: 'Bikini amarillo con diseño artístico',
+    image: 'https://res.cloudinary.com/dgzwczlza/image/upload/bikini-amarillo_kbsv7y.jpg',
+    sizes: ['M', 'L'],
+    oldPrice: '65.000',
+    price: '60.000',
+    // whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'v2',
-    title: 'Bikini verde con vuelos en hombros',
-    image: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&q=80',
+    title: 'Bikini verde menta con estampado multicolor',
+    image: 'https://res.cloudinary.com/dgzwczlza/image/upload/bikini-menta-azul_aaqdoz.jpg',
     sizes: ['S', 'M', 'L'],
     price: '89.900',
-    whatsappMessage: 'Hola, me interesa el Bikini verde con vuelos en hombros',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'v3',
     title: 'Bikini fucsia con estampado palmeras',
-    image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&q=80',
+    image: 'https://res.cloudinary.com/dgzwczlza/image/upload/bikini-corazones_ejxbuq.jpg',
     sizes: ['M', 'L'],
     price: '89.900',
-    whatsappMessage: 'Hola, me interesa el Bikini fucsia con estampado palmeras',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'v4',
-    title: 'Bikini negro con detalle metalizado',
-    image: 'https://images.unsplash.com/photo-1576567739864-875f1c87288d?w=400&q=80',
+    title: 'Bikini verde menta con estampado tropical',
+    image: 'https://res.cloudinary.com/dgzwczlza/image/upload/bikini-plantas_r9k8vn.jpg',
     sizes: ['S', 'M', 'L'],
     price: '89.900',
-    whatsappMessage: 'Hola, me interesa el Bikini negro con detalle metalizado',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'v5',
@@ -38,7 +39,7 @@ export const vestidosProducts = [
     image: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&q=80',
     sizes: ['S', 'M', 'L'],
     price: '89.900',
-    whatsappMessage: 'Hola, me interesa el Bikini coral con corte high waist',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
   {
     id: 'v6',
@@ -46,13 +47,6 @@ export const vestidosProducts = [
     image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&q=80',
     sizes: ['S', 'M'],
     price: '89.900',
-    whatsappMessage: 'Hola, me interesa el Bikini blanco con encaje',
+    whatsappMessage: 'Hola, me interesa el {{title}}',
   },
 ];
-
-const WHATSAPP_NUMBER = '573001234567'; // Reemplaza con tu número (código país + número sin + ni 0 inicial)
-
-export function getWhatsAppLink(message) {
-  const text = encodeURIComponent(message);
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${text}`;
-}
