@@ -3,7 +3,7 @@ import { pijamasProducts } from './pijamas';
 import { jumpersProducts } from './jumpers';
 
 /** Número de WhatsApp: único lugar para Vestidos, Pijamas, Ofertas y resto de la web */
-export const WHATSAPP_NUMBER = '573001234567'; // Código país + número sin + ni 0 inicial
+export const WHATSAPP_NUMBER = '573104556362'; // Código país + número sin + ni 0 inicial
 
 /**
  * Arrays de productos que se revisan para la sección Ofertas.
