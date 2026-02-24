@@ -1,5 +1,6 @@
 /* Paleta: crema #FDF7EC, rosa #E02062 — estilo moderno */
 :root {
+  --font-size-base: 18px;
   --color-bg: #fdf7ec;
   --color-card: #ffffff;
   --color-card-soft: #fefbf7;
@@ -27,9 +28,14 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: var(--font-size-base);
+}
+
 body {
   margin: 0;
   font-family: var(--font-serif);
+  font-size: 1rem;
   background-color: var(--color-bg);
   color: var(--color-text);
   line-height: 1.6;

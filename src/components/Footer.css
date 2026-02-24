@@ -7,6 +7,9 @@
 .footer__inner {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__link {
@@ -25,5 +28,11 @@
 }
 
 .footer__icon {
-  font-size: 1.2rem;
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+.footer__icon svg {
+  width: 1.4rem;
+  height: 1.4rem;
 }
