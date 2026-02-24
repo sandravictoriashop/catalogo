@@ -2,11 +2,11 @@ import { motion } from 'framer-motion';
 import Header from '../components/Header';
 import CatalogProductCard from '../components/CatalogProductCard';
 import Footer from '../components/Footer';
-import { getOfferProducts } from '../data/offers';
+import { jumpersProducts } from '../data/jumpers';
 import { staggerContainer, staggerItem, staggerViewport } from '../animations';
 import './CatalogPage.css';
 
-export default function OfertasPage() {
+export default function JumpersPage() {
   return (
     <>
       <Header />
@@ -17,7 +17,7 @@ export default function OfertasPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: [0.25, 0.4, 0.25, 1] }}
         >
-          Ofertas de Temporada
+          Colección Jumpers
         </motion.h1>
         <motion.div
           className="catalog-page__grid"
@@ -26,7 +26,7 @@ export default function OfertasPage() {
           whileInView="whileInView"
           viewport={staggerViewport}
         >
-          {getOfferProducts().map((product) => (
+          {jumpersProducts.map((product) => (
             <motion.div key={product.id} variants={staggerItem}>
               <CatalogProductCard product={product} />
             </motion.div>

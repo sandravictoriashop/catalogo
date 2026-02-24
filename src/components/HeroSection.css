@@ -43,12 +43,12 @@
 
 .hero__block--catalogo {
   background-color: #c4d4e0;
-  background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80');
+  background-image: url('https://res.cloudinary.com/dgzwczlza/image/upload/bikini-varios_xkjqc7.jpg');
 }
 
 .hero__block--ofertas {
   background-color: #e8ddd0;
-  background-image: url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80');
+  background-image: url('https://res.cloudinary.com/dgzwczlza/image/upload/pijama-elmo_czmtub.jpg');
 }
 
 .hero__overlay {

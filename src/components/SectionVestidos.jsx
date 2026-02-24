@@ -16,7 +16,7 @@ export default function SectionVestidos() {
       <div className="section-block__grid section-block__grid--image-left">
         <div className="section-block__image-wrap">
           <img
-            src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80"
+            src="https://res.cloudinary.com/dgzwczlza/image/upload/bikini-varios_xkjqc7.jpg"
             alt="Vestidos de baño"
           />
         </div>

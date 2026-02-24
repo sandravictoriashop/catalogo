@@ -48,6 +48,7 @@ export default function Header() {
           <Link to="/" onClick={closeMenu}>Inicio</Link>
           <Link to="/vestidos-de-bano" onClick={closeMenu}>Vestidos de Baño</Link>
           <Link to="/pijamas" onClick={closeMenu}>Pijamas</Link>
+          <Link to="/jumpers" onClick={closeMenu}>Jumpers</Link>
           <Link to="/ofertas" onClick={closeMenu}>Ofertas</Link>
         </nav>
       </div>

@@ -27,7 +27,7 @@ export default function SectionPijamas() {
         </div>
         <div className="section-block__image-wrap">
           <img
-            src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80"
+            src="https://res.cloudinary.com/dgzwczlza/image/upload/pijama-coraje_euvyqx.jpg"
             alt="Pijamas"
           />
         </div>

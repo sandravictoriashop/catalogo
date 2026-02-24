@@ -1,5 +1,16 @@
+import { vestidosProducts } from './products';
+import { pijamasProducts } from './pijamas';
+import { jumpersProducts } from './jumpers';
+
 /** Número de WhatsApp: único lugar para Vestidos, Pijamas, Ofertas y resto de la web */
 export const WHATSAPP_NUMBER = '573001234567'; // Código país + número sin + ni 0 inicial
+
+/**
+ * Arrays de productos que se revisan para la sección Ofertas.
+ * Si un producto tiene isOnSale: true, aparecerá en Ofertas además de en su catálogo.
+ * Añade o quita aquí los arrays que quieras (vestidos, pijamas, etc.).
+ */
+export const OFFER_SOURCE_ARRAYS = [vestidosProducts, pijamasProducts, jumpersProducts];
 
 /** Reemplaza {{title}}, {{price}}, {{sizes}}, {{oldPrice}} en el mensaje con los datos del producto */
 export function formatWhatsAppMessage(template, product) {
