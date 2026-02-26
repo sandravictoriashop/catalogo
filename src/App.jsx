@@ -5,6 +5,7 @@ import CatalogPage from './pages/CatalogPage';
 import PijamasPage from './pages/PijamasPage';
 import JumpersPage from './pages/JumpersPage';
 import OfertasPage from './pages/OfertasPage';
+import { SHOW_OFERTAS } from './data/config';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path="/vestidos-de-bano" element={<CatalogPage />} />
         <Route path="/pijamas" element={<PijamasPage />} />
         <Route path="/jumpers" element={<JumpersPage />} />
-        <Route path="/ofertas" element={<OfertasPage />} />
+        {SHOW_OFERTAS && <Route path="/ofertas" element={<OfertasPage />} />}
       </Routes>
     </HashRouter>
   );

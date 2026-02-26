@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { headerAnimation } from '../animations';
+import { SHOW_OFERTAS } from '../data/config';
 import './Header.css';
 
 export default function Header() {
@@ -49,7 +50,7 @@ export default function Header() {
           <Link to="/vestidos-de-bano" onClick={closeMenu}>Vestidos de Baño</Link>
           <Link to="/pijamas" onClick={closeMenu}>Pijamas</Link>
           <Link to="/jumpers" onClick={closeMenu}>Jumpers</Link>
-          <Link to="/ofertas" onClick={closeMenu}>Ofertas</Link>
+          {SHOW_OFERTAS && <Link to="/ofertas" onClick={closeMenu}>Ofertas</Link>}
         </nav>
       </div>
 

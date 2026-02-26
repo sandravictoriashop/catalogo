@@ -5,6 +5,9 @@ import { jumpersProducts } from './jumpers';
 /** Número de WhatsApp: único lugar para Vestidos, Pijamas, Ofertas y resto de la web */
 export const WHATSAPP_NUMBER = '573104556362'; // Código país + número sin + ni 0 inicial
 
+/** Si es true se muestra enlace, bloque hero y banner de Ofertas; si es false todo eso se oculta o se sustituye por Pijamas (el banner no se muestra) */
+export const SHOW_OFERTAS = false;
+
 /**
  * Arrays de productos que se revisan para la sección Ofertas.
  * Si un producto tiene isOnSale: true, aparecerá en Ofertas además de en su catálogo.
