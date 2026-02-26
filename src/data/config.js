@@ -12,14 +12,15 @@ export const WHATSAPP_NUMBER = '573104556362'; // Código país + número sin + 
  */
 export const OFFER_SOURCE_ARRAYS = [vestidosProducts, pijamasProducts, jumpersProducts];
 
-/** Reemplaza {{title}}, {{price}}, {{sizes}}, {{oldPrice}} en el mensaje con los datos del producto */
+/** Reemplaza {{title}}, {{price}}, {{sizes}}, {{oldPrice}}, {{image}} en el mensaje con los datos del producto */
 export function formatWhatsAppMessage(template, product) {
   if (!template || !product) return template || '';
   return template
     .replace(/\{\{title\}\}/g, product.title ?? '')
     .replace(/\{\{price\}\}/g, product.price ?? '')
     .replace(/\{\{oldPrice\}\}/g, product.oldPrice ?? '')
-    .replace(/\{\{sizes\}\}/g, Array.isArray(product.sizes) ? product.sizes.join(', ') : '');
+    .replace(/\{\{sizes\}\}/g, Array.isArray(product.sizes) ? product.sizes.join(', ') : '')
+    .replace(/\{\{image\}\}/g, product.image ?? '');
 }
 
 /** Si message es vacío o no se pasa, devuelve solo el chat (sin texto prefijado). */
