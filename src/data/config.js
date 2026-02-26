@@ -15,10 +15,11 @@ export const SHOW_OFERTAS = false;
  */
 export const OFFER_SOURCE_ARRAYS = [vestidosProducts, pijamasProducts, jumpersProducts];
 
-/** Reemplaza {{title}}, {{price}}, {{sizes}}, {{oldPrice}}, {{image}} en el mensaje con los datos del producto */
+/** Reemplaza {{code}}, {{title}}, {{price}}, {{sizes}}, {{oldPrice}}, {{image}} en el mensaje con los datos del producto */
 export function formatWhatsAppMessage(template, product) {
   if (!template || !product) return template || '';
   return template
+    .replace(/\{\{code\}\}/g, product.code ?? '')
     .replace(/\{\{title\}\}/g, product.title ?? '')
     .replace(/\{\{price\}\}/g, product.price ?? '')
     .replace(/\{\{oldPrice\}\}/g, product.oldPrice ?? '')

@@ -1,27 +1,19 @@
-import { motion } from 'framer-motion';
 import { getWhatsAppLink, formatWhatsAppMessage } from '../data/config';
-import { cardHover } from '../animations';
 import './CatalogProductCard.css';
 
 export default function CatalogProductCard({ product }) {
-  const { title, image, sizes, price, oldPrice, whatsappMessage } = product;
+  const { code, title, image, sizes, price, oldPrice, whatsappMessage } = product;
   const message = whatsappMessage
     ? formatWhatsAppMessage(whatsappMessage, product).replace('me interesa', 'quisiera añadir a la cesta')
     : '';
   const whatsappUrl = getWhatsAppLink(message);
 
   return (
-    <motion.article
-      className="catalog-product-card"
-      initial="rest"
-      whileHover="hover"
-      whileTap="tap"
-      variants={cardHover}
-      transition={{ type: 'spring', stiffness: 400, damping: 25 }}
-    >
+    <article className="catalog-product-card">
       <div className="catalog-product-card__image-wrap">
         <img src={image} alt={title} className="catalog-product-card__image" loading="lazy" />
       </div>
+      {code && <p className="catalog-product-card__code">{code}</p>}
       <h3 className="catalog-product-card__title">{title}</h3>
       <div className="catalog-product-card__price-wrap">
         {oldPrice != null && oldPrice !== '' && (
@@ -42,6 +34,6 @@ export default function CatalogProductCard({ product }) {
       >
         Pregunta por Whatsapp
       </a>
-    </motion.article>
+    </article>
   );
 }

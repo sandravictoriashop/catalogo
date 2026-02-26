@@ -27,7 +27,7 @@ export default function OfertasPage() {
           viewport={staggerViewport}
         >
           {getOfferProducts().map((product) => (
-            <motion.div key={product.id} variants={staggerItem}>
+            <motion.div key={product.code} variants={staggerItem}>
               <CatalogProductCard product={product} />
             </motion.div>
           ))}
