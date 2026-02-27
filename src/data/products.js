@@ -225,7 +225,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-23",
-    title: "Bikini Fuego Caribe",
+    title: "Bikini Naranja Atardecer",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-naranja_ukvwal.jpg",

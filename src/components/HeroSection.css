@@ -5,14 +5,14 @@
 .hero__grid {
   display: grid;
   grid-template-columns: 1fr;
-  min-height: 300px;
+  min-height: 720px;
   gap: 0;
 }
 
 @media (min-width: 768px) {
   .hero__grid {
-    grid-template-columns: 1fr 1fr;
-    min-height: 420px;
+    grid-template-columns: 1fr;
+    min-height: 1080px;
   }
 }
 
@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 240px;
+  min-height: 350px;
   overflow: hidden;
 }
 
@@ -37,7 +37,7 @@
 
 @media (min-width: 768px) {
   .hero__block {
-    min-height: 420px;
+    min-height: 350px;
   }
 }
 
@@ -46,10 +46,14 @@
   background-image: url('https://res.cloudinary.com/dgzwczlza/image/upload/bikini-varios_xkjqc7.jpg');
 }
 
-.hero__block--ofertas,
 .hero__block--piyamas {
   background-color: #e8ddd0;
   background-image: url('https://res.cloudinary.com/dgzwczlza/image/upload/pijama-elmo_czmtub.jpg');
+}
+
+.hero__block--jumpers {
+  background-color: #d9d7d2;
+  background-image: url('https://res.cloudinary.com/dgzwczlza/image/upload/jumper-negro_h1ynv4.jpg');
 }
 
 .hero__overlay {
@@ -57,22 +61,6 @@
   z-index: 1;
   padding: 1.75rem 2rem;
   text-align: center;
-}
-
-.hero__title {
-  margin: 0 0 1.25rem;
-  font-family: var(--font-serif);
-  font-size: 1.85rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: #fff;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-}
-
-@media (min-width: 768px) {
-  .hero__title {
-    font-size: 2.5rem;
-  }
 }
 
 .hero__btn {

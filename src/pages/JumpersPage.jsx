@@ -19,6 +19,8 @@ export default function JumpersPage() {
     : [{ name: null, products: jumpersProducts }];
 
   const pageTitle = subcategoryName ? `Jumper ${subcategoryName}` : 'Colección Jumpers';
+  const pageDescription =
+    'Descubre nuestra línea de jumpers, diseñada para estilizar con naturalidad y brindar confort durante todo el día. Siluetas versátiles, acabados cuidados y una propuesta moderna para destacar con elegancia.';
 
   return (
     <>
@@ -32,6 +34,14 @@ export default function JumpersPage() {
         >
           {pageTitle}
         </motion.h1>
+        <motion.p
+          className="catalog-page__description"
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.45, ease: [0.25, 0.4, 0.25, 1], delay: 0.05 }}
+        >
+          {pageDescription}
+        </motion.p>
         {sections.map(({ name, products }) => (
           <motion.section
             key={name ?? 'all'}

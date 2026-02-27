@@ -34,6 +34,8 @@ export default function CatalogPage() {
   const pageTitle = subcategoryName
     ? `Colección ${subcategoryName}`
     : "Colección Vestidos de Baño";
+  const pageDescription =
+    "Explora nuestra selección editorial de piezas diseñadas para elevar tu estilo bajo el sol. Un equilibrio perfecto entre la sofisticación artesanal y la comodidad suprema.";
 
   return (
     <>
@@ -47,6 +49,14 @@ export default function CatalogPage() {
         >
           {pageTitle}
         </motion.h1>
+        <motion.p
+          className="catalog-page__description"
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.45, ease: [0.25, 0.4, 0.25, 1], delay: 0.05 }}
+        >
+          {pageDescription}
+        </motion.p>
         {sections.map(({ name, products }) => (
           <motion.section
             key={name ?? "all"}

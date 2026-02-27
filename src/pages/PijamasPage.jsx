@@ -19,6 +19,8 @@ export default function PijamasPage() {
     : [{ name: null, products: pijamasProducts }];
 
   const pageTitle = subcategoryName ? `Piyama ${subcategoryName}` : 'Colección Piyamas';
+  const pageDescription =
+    'Nuestra colección de piyamas combina estilo y comodidad absoluta. Confeccionadas con tejidos premium de exquisita suavidad, cada pieza está diseñada para elevar tus noches y momentos de descanso con elegancia.';
 
   return (
     <>
@@ -32,6 +34,14 @@ export default function PijamasPage() {
         >
           {pageTitle}
         </motion.h1>
+        <motion.p
+          className="catalog-page__description"
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.45, ease: [0.25, 0.4, 0.25, 1], delay: 0.05 }}
+        >
+          {pageDescription}
+        </motion.p>
         {sections.map(({ name, products }) => (
           <motion.section
             key={name ?? 'all'}
