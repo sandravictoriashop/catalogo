@@ -9,7 +9,7 @@ import "./CatalogPage.css";
 
 /** Subcategoría en URL -> nombre para mostrar */
 const SUBCATEGORY_LABELS = {
-  normal: "Normal",
+  bikini: "Bikini",
   asoleador: "Asoleador",
   enterizo: "Enterizo",
 };

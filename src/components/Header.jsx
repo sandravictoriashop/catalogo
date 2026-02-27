@@ -75,8 +75,8 @@ export default function Header() {
               <Link to="/vestidos-de-bano" onClick={closeMenu}>
                 Ver todas
               </Link>
-              <Link to="/vestidos-de-bano/normal" onClick={closeMenu}>
-                Normal
+              <Link to="/vestidos-de-bano/bikini" onClick={closeMenu}>
+                Bikini
               </Link>
               <Link to="/vestidos-de-bano/asoleador" onClick={closeMenu}>
                 Asoleador
@@ -86,8 +86,8 @@ export default function Header() {
               </Link>
             </div>
             <div className="header__vestidos-sub">
-              <Link to="/vestidos-de-bano/normal" onClick={closeMenu}>
-                Vestidos Normal
+              <Link to="/vestidos-de-bano/bikini" onClick={closeMenu}>
+                Vestidos Bikini
               </Link>
               <Link to="/vestidos-de-bano/asoleador" onClick={closeMenu}>
                 Vestidos Asoleador
