@@ -20,15 +20,15 @@ export default function HeroSection() {
           </div>
         </motion.div>
         <motion.div
-          className={`hero__block ${SHOW_OFERTAS ? 'hero__block--ofertas' : 'hero__block--pijamas'}`}
+          className={`hero__block ${SHOW_OFERTAS ? 'hero__block--ofertas' : 'hero__block--piyamas'}`}
           initial={heroBlockAnimation.initial}
           animate={heroBlockAnimation.animate}
           transition={{ ...heroBlockAnimation.transition, delay: 0.25 }}
         >
           <div className="hero__overlay">
-            <h2 className="hero__title">{SHOW_OFERTAS ? 'Ofertas' : 'Pijamas'}</h2>
-            <Link to={SHOW_OFERTAS ? '/ofertas' : '/pijamas'} className="hero__btn">
-              {SHOW_OFERTAS ? 'Ver Especiales' : 'Ver Pijamas'}
+            <h2 className="hero__title">{SHOW_OFERTAS ? 'Ofertas' : 'Piyamas'}</h2>
+            <Link to={SHOW_OFERTAS ? '/ofertas' : '/piyamas'} className="hero__btn">
+              {SHOW_OFERTAS ? 'Ver Especiales' : 'Ver Piyamas'}
             </Link>
           </div>
         </motion.div>

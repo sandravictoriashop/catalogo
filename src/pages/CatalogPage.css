@@ -2,6 +2,7 @@
   padding: 2.5rem 1.5rem 4rem;
   max-width: 1200px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 @media (min-width: 768px) {
@@ -14,6 +15,7 @@
   font-family: var(--font-serif);
   font-size: 1.9rem;
   font-weight: 600;
+  line-height: 1.1;
   text-align: center;
   color: var(--color-text);
   margin: 0 0 2.5rem;
@@ -25,6 +27,15 @@
     font-size: 2.35rem;
     margin-bottom: 3rem;
   }
+}
+
+/* Bloque de subcategoría / grid */
+.catalog-page__subcategory {
+  margin-bottom: 2.5rem;
+}
+
+.catalog-page__subcategory:last-child {
+  margin-bottom: 0;
 }
 
 /* 3 columnas en desktop, 1 en móvil */

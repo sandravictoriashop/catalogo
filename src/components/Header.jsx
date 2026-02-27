@@ -7,6 +7,8 @@ import './Header.css';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [piyamasOpen, setPiyamasOpen] = useState(false);
+  const [jumpersOpen, setJumpersOpen] = useState(false);
 
   const closeMenu = () => setMenuOpen(false);
 
@@ -48,8 +50,45 @@ export default function Header() {
           </button>
           <Link to="/" onClick={closeMenu}>Inicio</Link>
           <Link to="/vestidos-de-bano" onClick={closeMenu}>Vestidos de Baño</Link>
-          <Link to="/pijamas" onClick={closeMenu}>Pijamas</Link>
-          <Link to="/jumpers" onClick={closeMenu}>Jumpers</Link>
+
+          <div
+            className="header__piyamas"
+            onMouseEnter={() => setPiyamasOpen(true)}
+            onMouseLeave={() => setPiyamasOpen(false)}
+          >
+            <Link to="/piyamas" onClick={closeMenu} className="header__piyamas-trigger">
+              Piyamas
+            </Link>
+            <div className={`header__dropdown ${piyamasOpen ? 'header__dropdown--open' : ''}`} aria-hidden={!piyamasOpen}>
+              <Link to="/piyamas" onClick={closeMenu}>Ver todas</Link>
+              <Link to="/piyamas/pantalon" onClick={closeMenu}>Pantalón</Link>
+              <Link to="/piyamas/short" onClick={closeMenu}>Short</Link>
+            </div>
+            <div className="header__piyamas-sub">
+              <Link to="/piyamas/pantalon" onClick={closeMenu}>Piyamas Pantalón</Link>
+              <Link to="/piyamas/short" onClick={closeMenu}>Piyamas Short</Link>
+            </div>
+          </div>
+
+          <div
+            className="header__jumpers"
+            onMouseEnter={() => setJumpersOpen(true)}
+            onMouseLeave={() => setJumpersOpen(false)}
+          >
+            <Link to="/jumpers" onClick={closeMenu} className="header__jumpers-trigger">
+              Jumpers
+            </Link>
+            <div className={`header__dropdown ${jumpersOpen ? 'header__dropdown--open' : ''}`} aria-hidden={!jumpersOpen}>
+              <Link to="/jumpers" onClick={closeMenu}>Ver todas</Link>
+              <Link to="/jumpers/capri" onClick={closeMenu}>Capri</Link>
+              <Link to="/jumpers/largo" onClick={closeMenu}>Largo</Link>
+            </div>
+            <div className="header__jumpers-sub">
+              <Link to="/jumpers/capri" onClick={closeMenu}>Jumpers Capri</Link>
+              <Link to="/jumpers/largo" onClick={closeMenu}>Jumpers Largo</Link>
+            </div>
+          </div>
+
           {SHOW_OFERTAS && <Link to="/ofertas" onClick={closeMenu}>Ofertas</Link>}
         </nav>
       </div>

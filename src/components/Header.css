@@ -97,6 +97,53 @@
   color: var(--color-accent);
 }
 
+/* Piyamas: contenedor para desplegable (desktop) y subgrupo (móvil) */
+.header__piyamas {
+  position: relative;
+}
+
+.header__jumpers {
+  position: relative;
+}
+
+/* Desktop: desplegable al pasar el ratón */
+.header__dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  background: var(--color-card);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-size-border);
+  flex-direction: column;
+  gap: 0;
+  z-index: 10;
+}
+
+.header__dropdown--open {
+  display: flex;
+}
+
+.header__dropdown a {
+  padding: 0.5rem 1rem;
+  border-bottom: none;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.header__dropdown a:hover {
+  background: var(--color-size-tag);
+}
+
+/* Móvil: subenlaces; en desktop se ocultan */
+.header__piyamas-sub,
+.header__jumpers-sub {
+  display: none;
+}
+
 /* Móvil: hamburguesa y logo en una sola línea, menú en panel */
 @media (max-width: 767px) {
   .header__inner {
@@ -176,8 +223,53 @@
     border-bottom: 1px solid var(--color-size-border);
   }
 
-  .header__nav a:last-child {
+  /* Solo el último enlace de nivel superior (Ofertas) sin borde; no los subenlaces de Piyamas */
+  .header__nav > a:last-child {
     border-bottom: none;
+  }
+
+  /* Piyamas en móvil: desplegable oculto, subenlaces visibles e indentados */
+  .header__piyamas {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .header__jumpers {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .header__dropdown {
+    display: none !important;
+  }
+
+  .header__piyamas-sub {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .header__jumpers-sub {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .header__piyamas-sub a,
+  .header__jumpers-sub a {
+    padding: 0.6rem 0 0.6rem 1.25rem;
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    border-bottom: 1px solid var(--color-size-border);
+  }
+
+  .header__piyamas-sub a::before,
+  .header__jumpers-sub a::before {
+    content: '— ';
+    color: var(--color-accent);
+    font-weight: 600;
   }
 }
 

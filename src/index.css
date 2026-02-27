@@ -30,6 +30,8 @@
 
 html {
   font-size: var(--font-size-base);
+  overflow-x: hidden;
+  overscroll-behavior-x: none;
 }
 
 body {
@@ -40,10 +42,13 @@ body {
   color: var(--color-text);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overscroll-behavior-x: none;
 }
 
 #root {
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 a {

@@ -14,8 +14,10 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/vestidos-de-bano" element={<CatalogPage />} />
-        <Route path="/pijamas" element={<PijamasPage />} />
+        <Route path="/piyamas" element={<PijamasPage />} />
+        <Route path="/piyamas/:subcategory" element={<PijamasPage />} />
         <Route path="/jumpers" element={<JumpersPage />} />
+        <Route path="/jumpers/:subcategory" element={<JumpersPage />} />
         {SHOW_OFERTAS && <Route path="/ofertas" element={<OfertasPage />} />}
       </Routes>
     </HashRouter>
