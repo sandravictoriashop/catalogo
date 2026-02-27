@@ -63,7 +63,9 @@
   height: 2px;
   background: var(--color-text);
   border-radius: 1px;
-  transition: transform 0.25s, opacity 0.25s;
+  transition:
+    transform 0.25s,
+    opacity 0.25s;
 }
 
 .header__hamburger[aria-expanded="true"] .header__hamburger-bar:nth-child(1) {
@@ -98,6 +100,10 @@
 }
 
 /* Piyamas: contenedor para desplegable (desktop) y subgrupo (móvil) */
+.header__vestidos {
+  position: relative;
+}
+
 .header__piyamas {
   position: relative;
 }
@@ -139,6 +145,7 @@
 }
 
 /* Móvil: subenlaces; en desktop se ocultan */
+.header__vestidos-sub,
 .header__piyamas-sub,
 .header__jumpers-sub {
   display: none;
@@ -175,7 +182,9 @@
     z-index: 102;
     transform: translateX(100%);
     visibility: hidden;
-    transition: transform 0.3s ease, visibility 0.3s;
+    transition:
+      transform 0.3s ease,
+      visibility 0.3s;
   }
 
   .header__nav--open {
@@ -235,6 +244,12 @@
     align-items: stretch;
   }
 
+  .header__vestidos {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
   .header__jumpers {
     display: flex;
     flex-direction: column;
@@ -243,6 +258,12 @@
 
   .header__dropdown {
     display: none !important;
+  }
+
+  .header__vestidos-sub {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
   }
 
   .header__piyamas-sub {
@@ -257,6 +278,7 @@
     gap: 0;
   }
 
+  .header__vestidos-sub a,
   .header__piyamas-sub a,
   .header__jumpers-sub a {
     padding: 0.6rem 0 0.6rem 1.25rem;
@@ -265,9 +287,10 @@
     border-bottom: 1px solid var(--color-size-border);
   }
 
+  .header__vestidos-sub a::before,
   .header__piyamas-sub a::before,
   .header__jumpers-sub a::before {
-    content: '— ';
+    content: "— ";
     color: var(--color-accent);
     font-weight: 600;
   }

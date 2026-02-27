@@ -12,66 +12,6 @@ export const pijamasProducts = [
   },
   {
     code: "PJ-02",
-    title: "Piyama Pato Donald Pantalón",
-    subcategory: "Pantalón",
-    image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-donald_lgvahh.jpg",
-    sizes: ["S", "M", "L", "XL"],
-    price: "78.000",
-    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
-  },
-  {
-    code: "PJ-03",
-    title: "Piyama Dexter Short",
-    subcategory: "Short",
-    image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-dexter_z3tuoa.jpg",
-    sizes: ["S", "M", "L", "XL"],
-    price: "68.000",
-    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
-  },
-  {
-    code: "PJ-04",
-    title: "Piyama Coraje Pantalón",
-    subcategory: "Pantalón",
-    image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-coraje_euvyqx.jpg",
-    sizes: ["S", "M", "L", "XL"],
-    price: "78.000",
-    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
-  },
-  {
-    code: "PJ-05",
-    title: "Piyama Chicas Super poderosas Short",
-    subcategory: "Short",
-    image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-burbuja_yksfqk.jpg",
-    sizes: ["S", "M", "L", "XL"],
-    price: "68.000",
-    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
-  },
-  {
-    code: "PJ-06",
-    title: "Piyama Piolin Pantalón",
-    subcategory: "Pantalón",
-    image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-piolin_s6lsly.jpg",
-    sizes: ["S", "M", "L", "XL"],
-    price: "78.000",
-    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
-  },
-  {
-    code: "PJ-07",
-    title: "Piyama Rick Short",
-    subcategory: "Short",
-    image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-ricky_fzkwvo.jpg",
-    sizes: ["S", "M", "L", "XL"],
-    price: "68.000",
-    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
-  },
-  {
-    code: "PJ-08",
     title: "Piyama Mafalda Pantalón",
     subcategory: "Pantalón",
     image:
@@ -81,23 +21,83 @@ export const pijamasProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "PJ-09",
-    title: "Piyama Vaca y Pollito Short",
-    subcategory: "Short",
-    image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-vaca-pollito_lq7w84.jpg",
-    sizes: ["S", "M", "L", "XL"],
-    price: "68.000",
-    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
-  },
-  {
-    code: "PJ-10",
+    code: "PJ-03",
     title: "Piyama Snoppy Pantalón",
     subcategory: "Pantalón",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-snoopy_ya1hrz.jpg",
     sizes: ["S", "M", "L", "XL"],
     price: "78.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "PJ-04",
+    title: "Piyama Pato Donald Pantalón",
+    subcategory: "Pantalón",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-donald_lgvahh.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "78.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "PJ-05",
+    title: "Piyama Dexter Short",
+    subcategory: "Short",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-dexter_z3tuoa.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "68.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "PJ-06",
+    title: "Piyama Coraje Pantalón",
+    subcategory: "Pantalón",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-coraje_euvyqx.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "78.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "PJ-07",
+    title: "Piyama Chicas Super poderosas Short",
+    subcategory: "Short",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-burbuja_yksfqk.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "68.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "PJ-08",
+    title: "Piyama Piolin Pantalón",
+    subcategory: "Pantalón",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-piolin_s6lsly.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "78.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "PJ-09",
+    title: "Piyama Rick Short",
+    subcategory: "Short",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-ricky_fzkwvo.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "68.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "PJ-10",
+    title: "Piyama Vaca y Pollito Short",
+    subcategory: "Short",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-vaca-pollito_lq7w84.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "68.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
