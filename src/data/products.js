@@ -2,7 +2,7 @@
 export const vestidosProducts = [
   {
     code: "VB-01",
-    title: "Bikini amarillo con diseño artístico",
+    title: "Bikini Mirada del Sol",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-amarillo_kbsv7y.jpg",
@@ -24,7 +24,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-02",
-    title: "Bikini verde menta con estampado tropical",
+    title: "Bikini Menta Tropical",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-menta-azul_aaqdoz.jpg",
@@ -45,7 +45,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-04",
-    title: "Bikini verde menta con estampado hojas",
+    title: "Bikini selva menta",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-plantas_r9k8vn.jpg",
@@ -65,7 +65,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-13",
-    title: "Bikini verde degradado",
+    title: "Bikini Aura Marina",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-brilla_h5wjmd.jpg",
@@ -136,7 +136,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-11",
-    title: "Bikini fucsia estampado de corazones",
+    title: "Bikini velvet love",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-morado-completo_k01iwd.jpg",
@@ -156,7 +156,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-31",
-    title: "Bikini verde rosas",
+    title: "Bikini Jardín Turquesa",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-rosas_zlh391.jpg",
@@ -166,7 +166,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-32",
-    title: "Bikini verde oliva",
+    title: "Bikini oliva real",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-beige-brillante_gfq7ye.jpg",
@@ -186,7 +186,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-34",
-    title: "Bikini fucsia corazón",
+    title: "Bikini fucsia love",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rosado-corazon_do42c1.jpg",

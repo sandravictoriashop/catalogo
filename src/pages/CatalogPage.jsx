@@ -35,7 +35,7 @@ export default function CatalogPage() {
     ? `Colección ${subcategoryName}`
     : "Colección Vestidos de Baño";
   const pageDescription =
-    "Explora nuestra selección editorial de piezas diseñadas para elevar tu estilo bajo el sol. Un equilibrio perfecto entre la sofisticación artesanal y la comodidad suprema.";
+    "Explora nuestra colección de piezas diseñadas para realzar tu estilo bajo el sol. Un equilibrio perfecto entre sofisticación y comodidad absoluta.";
 
   return (
     <>
