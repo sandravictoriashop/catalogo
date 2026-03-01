@@ -9,9 +9,9 @@ import "./CatalogPage.css";
 
 /** Subcategoría en URL -> nombre para mostrar */
 const SUBCATEGORY_LABELS = {
-  bikini: "Bikini",
-  asoleador: "Asoleador",
-  enterizo: "Enterizo",
+  bikini: "Bikinis",
+  asoleador: "Asoleadores",
+  enterizo: "Enterizos",
 };
 
 export default function CatalogPage() {
@@ -23,17 +23,22 @@ export default function CatalogPage() {
   const sections = subcategoryName
     ? [
         {
-          name: subcategoryName,
-          products: vestidosProducts.filter(
-            (p) => (p.subcategory ?? "") === subcategoryName,
+          name: SUBCATEGORY_LABELS[subcategorySlug.toLowerCase()],
+          products: vestidosProducts.filter((p) =>
+            (p.subcategory ?? "").toLowerCase() === subcategorySlug.toLowerCase(),
           ),
         },
       ]
-    : [{ name: null, products: vestidosProducts }];
+    : Object.keys(SUBCATEGORY_LABELS).map((key) => ({
+        name: SUBCATEGORY_LABELS[key],
+        products: vestidosProducts.filter(
+          (p) => (p.subcategory ?? "").toLowerCase() === key,
+        ),
+      }));
 
   const pageTitle = subcategoryName
     ? `Colección ${subcategoryName}`
-    : "Colección Vestidos de Baño";
+    : "Vestidos de Baño";
   const pageDescription =
     "Explora nuestra colección de piezas diseñadas para realzar tu estilo bajo el sol. Un equilibrio perfecto entre sofisticación y comodidad absoluta.";
 

@@ -8,17 +8,27 @@ import { staggerContainer, staggerItem, staggerViewport } from '../animations';
 import './CatalogPage.css';
 
 /** Subcategoría en URL → nombre para mostrar */
-const SUBCATEGORY_LABELS = { capri: 'Capri', largo: 'Largo' };
+const SUBCATEGORY_LABELS = { capri: 'Brisa Essential', largo: 'Edición Estelar' };
 
 export default function JumpersPage() {
   const { subcategory: subcategorySlug } = useParams();
   const subcategoryName = subcategorySlug ? SUBCATEGORY_LABELS[subcategorySlug.toLowerCase()] : null;
 
   const sections = subcategoryName
-    ? [{ name: subcategoryName, products: jumpersProducts.filter((p) => (p.subcategory ?? '') === subcategoryName) }]
-    : [{ name: null, products: jumpersProducts }];
+    ? [
+        {
+          name: SUBCATEGORY_LABELS[subcategorySlug.toLowerCase()],
+          products: jumpersProducts.filter(
+            (p) => (p.subcategory ?? '').toLowerCase() === subcategorySlug.toLowerCase()
+          ),
+        },
+      ]
+    : Object.keys(SUBCATEGORY_LABELS).map((key) => ({
+        name: SUBCATEGORY_LABELS[key],
+        products: jumpersProducts.filter((p) => (p.subcategory ?? '').toLowerCase() === key),
+      }));
 
-  const pageTitle = subcategoryName ? `Jumper ${subcategoryName}` : 'Colección Jumpers';
+  const pageTitle = subcategoryName ? `${subcategoryName}` : 'Colección Jumpers';
   const pageDescription =
     'La libertad nunca se vio tan elegante. Nuestra colección de jumpers celebra el movimiento natural con siluetas fluidas que se adaptan a tu ritmo.';
 
@@ -51,6 +61,17 @@ export default function JumpersPage() {
             whileInView="whileInView"
             viewport={staggerViewport}
           >
+            {(!subcategoryName && name) && (
+              <motion.h2
+                className="catalog-page__subcategory-title"
+                initial={{ opacity: 0, y: 12 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.45, ease: [0.25, 0.4, 0.25, 1] }}
+              >
+                {name}
+              </motion.h2>
+            )}
+
             <motion.div className="catalog-page__grid" variants={staggerContainer}>
               {products.map((product) => (
                 <motion.div key={product.code} variants={staggerItem}>

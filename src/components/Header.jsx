@@ -76,24 +76,24 @@ export default function Header() {
                 Ver todas
               </Link>
               <Link to="/vestidos-de-bano/bikini" onClick={closeMenu}>
-                Bikini
+                Bikinis
               </Link>
               <Link to="/vestidos-de-bano/enterizo" onClick={closeMenu}>
-                Enterizo
+                Enterizos
               </Link>
               <Link to="/vestidos-de-bano/asoleador" onClick={closeMenu}>
-                Asoleador
+                Asoleadores
               </Link>
             </div>
             <div className="header__vestidos-sub">
               <Link to="/vestidos-de-bano/bikini" onClick={closeMenu}>
-                Vestidos Bikini
+                Bikinis
               </Link>
               <Link to="/vestidos-de-bano/enterizo" onClick={closeMenu}>
-                Vestidos Enterizo
+                Enterizos
               </Link>
               <Link to="/vestidos-de-bano/asoleador" onClick={closeMenu}>
-                Vestidos Asoleador
+                Asoleadores
               </Link>
             </div>
           </div>
@@ -126,10 +126,10 @@ export default function Header() {
             </div>
             <div className="header__pijamas-sub">
               <Link to="/pijamas/pantalon" onClick={closeMenu}>
-                Pijamas Pantalón
+                Pantalón
               </Link>
               <Link to="/pijamas/short" onClick={closeMenu}>
-                Pijamas Short
+                Short
               </Link>
             </div>
           </div>
@@ -154,18 +154,18 @@ export default function Header() {
                 Ver todas
               </Link>
               <Link to="/jumpers/capri" onClick={closeMenu}>
-                Capri
+                Brisa Essential
               </Link>
               <Link to="/jumpers/largo" onClick={closeMenu}>
-                Largo
+                Edición Estelar
               </Link>
             </div>
             <div className="header__jumpers-sub">
               <Link to="/jumpers/capri" onClick={closeMenu}>
-                Jumpers Capri
+                Brisa Essential
               </Link>
               <Link to="/jumpers/largo" onClick={closeMenu}>
-                Jumpers Largo
+                Edición Estelar
               </Link>
             </div>
           </div>
