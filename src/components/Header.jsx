@@ -78,22 +78,22 @@ export default function Header() {
               <Link to="/vestidos-de-bano/bikini" onClick={closeMenu}>
                 Bikini
               </Link>
-              <Link to="/vestidos-de-bano/asoleador" onClick={closeMenu}>
-                Asoleador
-              </Link>
               <Link to="/vestidos-de-bano/enterizo" onClick={closeMenu}>
                 Enterizo
+              </Link>
+              <Link to="/vestidos-de-bano/asoleador" onClick={closeMenu}>
+                Asoleador
               </Link>
             </div>
             <div className="header__vestidos-sub">
               <Link to="/vestidos-de-bano/bikini" onClick={closeMenu}>
                 Vestidos Bikini
               </Link>
-              <Link to="/vestidos-de-bano/asoleador" onClick={closeMenu}>
-                Vestidos Asoleador
-              </Link>
               <Link to="/vestidos-de-bano/enterizo" onClick={closeMenu}>
                 Vestidos Enterizo
+              </Link>
+              <Link to="/vestidos-de-bano/asoleador" onClick={closeMenu}>
+                Vestidos Asoleador
               </Link>
             </div>
           </div>

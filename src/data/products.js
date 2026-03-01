@@ -13,6 +13,16 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
+    code: "VB-23",
+    title: "Bikini Naranja Atardecer",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-naranja_ukvwal.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "90.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
     code: "VB-02",
     title: "Bikini verde menta con estampado tropical",
     subcategory: "Bikini",
@@ -23,11 +33,11 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-03",
-    title: "Bikini fucsia con estampado palmeras",
+    code: "VB-29",
+    title: "Bikini latidos de verano",
     subcategory: "Bikini",
     image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-corazones_ejxbuq.jpg",
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rojo-corazon_aeor7e.jpg",
     sizes: ["S", "M", "L", "XL"],
     price: "90.000",
     isOnSale: true,
@@ -51,6 +61,27 @@ export const vestidosProducts = [
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rojo-azul_lzub2x.jpg",
     sizes: ["S", "M", "L", "XL"],
     price: "90.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-13",
+    title: "Bikini verde degradado",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-brilla_h5wjmd.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "90.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-03",
+    title: "Bikini fucsia con estampado palmeras",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-corazones_ejxbuq.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "90.000",
+    isOnSale: true,
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -124,11 +155,51 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-13",
-    title: "Bikini verde degradado",
+    code: "VB-31",
+    title: "Bikini verde rosas",
     subcategory: "Bikini",
     image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-brilla_h5wjmd.jpg",
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-rosas_zlh391.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "90.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-32",
+    title: "Bikini verde oliva",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-beige-brillante_gfq7ye.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "90.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-33",
+    title: "Bikini flamingo índigo",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-flamingo-indigo_t5v0br.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "90.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-34",
+    title: "Bikini fucsia corazón",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rosado-corazon_do42c1.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "90.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-21",
+    title: "Bikini dulce menta",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-menta_y13v55.jpg",
     sizes: ["S", "M", "L", "XL"],
     price: "90.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
@@ -149,6 +220,56 @@ export const vestidosProducts = [
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-negro-verde_d33grz.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "90.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-19",
+    title: "Bikini blanco Girasol",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-girasol_o8zcyj.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "90.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-30",
+    title: "Bikini rojo carmesí",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rojo-pasion_iygpsx.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "90.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-20",
+    title: "Bikini azul oscuro Jardín Exótico",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-mora-azul_fjmqnl.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "90.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-22",
+    title: "Bikini Tropical Rojo",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rojo-negro_k12z9t.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "90.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-35",
+    title: "Bikini malibu",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-fiesta-malibu_yycas6.jpg",
     sizes: ["S", "M", "L", "XL"],
     price: "90.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
@@ -184,56 +305,6 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-19",
-    title: "Bikini blanco Girasol",
-    subcategory: "Bikini",
-    image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-girasol_o8zcyj.jpg",
-    sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
-    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
-  },
-  {
-    code: "VB-20",
-    title: "Bikini azul oscuro Jardín Exótico",
-    subcategory: "Bikini",
-    image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-mora-azul_fjmqnl.jpg",
-    sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
-    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
-  },
-  {
-    code: "VB-21",
-    title: "Bikini Dulce Menta",
-    subcategory: "Bikini",
-    image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-menta_y13v55.jpg",
-    sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
-    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
-  },
-  {
-    code: "VB-22",
-    title: "Bikini Tropical Rojo",
-    subcategory: "Bikini",
-    image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rojo-negro_k12z9t.jpg",
-    sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
-    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
-  },
-  {
-    code: "VB-23",
-    title: "Bikini Naranja Atardecer",
-    subcategory: "Bikini",
-    image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-naranja_ukvwal.jpg",
-    sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
-    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
-  },
-  {
     code: "VB-24",
     title: "Asoleadores",
     subcategory: "Asoleador",
@@ -254,13 +325,23 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
+    code: "VB-28",
+    title: "Enterizo Blanco Palmeras",
+    subcategory: "Enterizo",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/entero-blanco-palmeras_bzxt15.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "120.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
     code: "VB-26",
     title: "Enterizo Azul turquesa",
     subcategory: "Enterizo",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/entero-azul-petroleo_xvfr21.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "120.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -270,17 +351,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/entero-leopardo_une7ps.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "120.000",
-    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
-  },
-  {
-    code: "VB-28",
-    title: "Enterizo Blanco Palmeras",
-    subcategory: "Enterizo",
-    image:
-      "https://res.cloudinary.com/dgzwczlza/image/upload/entero-blanco-palmeras_bzxt15.jpg",
-    sizes: ["S", "M", "L", "XL"],
-    price: "120.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
 ];
