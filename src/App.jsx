@@ -18,8 +18,8 @@ function App() {
           path="/vestidos-de-bano/:subcategory"
           element={<CatalogPage />}
         />
-        <Route path="/piyamas" element={<PijamasPage />} />
-        <Route path="/piyamas/:subcategory" element={<PijamasPage />} />
+        <Route path="/pijamas" element={<PijamasPage />} />
+        <Route path="/pijamas/:subcategory" element={<PijamasPage />} />
         <Route path="/jumpers" element={<JumpersPage />} />
         <Route path="/jumpers/:subcategory" element={<JumpersPage />} />
         {SHOW_OFERTAS && <Route path="/ofertas" element={<OfertasPage />} />}

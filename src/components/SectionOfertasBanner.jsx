@@ -16,7 +16,7 @@ export default function SectionOfertasBanner() {
       <div className="ofertas-banner__inner section">
         <h2 className="ofertas-banner__title">Ofertas de Temporada</h2>
         <p className="ofertas-banner__text">
-          Explora nuestra curaduría de temporada. Diseños exclusivos de vestidos de baño y piyamas
+          Explora nuestra curaduría de temporada. Diseños exclusivos de vestidos de baño y pijamas
           boutique con beneficios especiales. El balance perfecto entre estilo y descanso.
         </p>
         <Link to="/ofertas" className="ofertas-banner__btn">

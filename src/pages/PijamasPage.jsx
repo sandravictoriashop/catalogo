@@ -18,9 +18,9 @@ export default function PijamasPage() {
     ? [{ name: subcategoryName, products: pijamasProducts.filter((p) => (p.subcategory ?? '') === subcategoryName) }]
     : [{ name: null, products: pijamasProducts }];
 
-  const pageTitle = subcategoryName ? `Piyama ${subcategoryName}` : 'Colección Piyamas';
+  const pageTitle = subcategoryName ? `Pijama ${subcategoryName}` : 'Colección Pijamas';
   const pageDescription =
-    'Nuestra colección de piyamas combina estilo y comodidad absoluta. Confeccionadas con tejidos premium de exquisita suavidad, cada pieza está diseñada para elevar tus noches y momentos de descanso con elegancia.';
+    'Pijamas suaves, cómodas y llenas de ternura. Nuestros diseños están hechos para acompañarte en noches relajadas y mañanas felices.';
 
   return (
     <>

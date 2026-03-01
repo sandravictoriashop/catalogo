@@ -1,8 +1,8 @@
-/** Productos para la página "Piyamas". Subcategorías: Pantalón (78.000), Short (68.000) */
+/** Productos para la página "Pijamas". Subcategorías: Pantalón (78.000), Short (68.000) */
 export const pijamasProducts = [
   {
     code: "PJ-01",
-    title: "Piyama Elmo Pantalón",
+    title: "Pijama Elmo Pantalón",
     subcategory: "Pantalón",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-elmo_czmtub.jpg",
@@ -12,7 +12,7 @@ export const pijamasProducts = [
   },
   {
     code: "PJ-02",
-    title: "Piyama Mafalda Pantalón",
+    title: "Pijama Mafalda Pantalón",
     subcategory: "Pantalón",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-malfalda_ycir2o.jpg",
@@ -22,7 +22,7 @@ export const pijamasProducts = [
   },
   {
     code: "PJ-03",
-    title: "Piyama Snoppy Pantalón",
+    title: "Pijama Snoppy Pantalón",
     subcategory: "Pantalón",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-snoopy_ya1hrz.jpg",
@@ -32,7 +32,7 @@ export const pijamasProducts = [
   },
   {
     code: "PJ-04",
-    title: "Piyama Pato Donald Pantalón",
+    title: "Pijama Pato Donald Pantalón",
     subcategory: "Pantalón",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-donald_lgvahh.jpg",
@@ -42,7 +42,7 @@ export const pijamasProducts = [
   },
   {
     code: "PJ-05",
-    title: "Piyama Dexter Short",
+    title: "Pijama Dexter Short",
     subcategory: "Short",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-dexter_z3tuoa.jpg",
@@ -52,7 +52,7 @@ export const pijamasProducts = [
   },
   {
     code: "PJ-06",
-    title: "Piyama Coraje Pantalón",
+    title: "Pijama Coraje Pantalón",
     subcategory: "Pantalón",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-coraje_euvyqx.jpg",
@@ -62,7 +62,7 @@ export const pijamasProducts = [
   },
   {
     code: "PJ-07",
-    title: "Piyama Chicas Super poderosas Short",
+      title: "Pijama Chicas Super Poderosas Short",
     subcategory: "Short",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-burbuja_yksfqk.jpg",
@@ -72,7 +72,7 @@ export const pijamasProducts = [
   },
   {
     code: "PJ-08",
-    title: "Piyama Piolin Pantalón",
+    title: "Pijama Piolin Pantalón",
     subcategory: "Pantalón",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-piolin_s6lsly.jpg",
@@ -82,7 +82,7 @@ export const pijamasProducts = [
   },
   {
     code: "PJ-09",
-    title: "Piyama Rick Short",
+    title: "Pijama Rick Short",
     subcategory: "Short",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-ricky_fzkwvo.jpg",
@@ -92,7 +92,7 @@ export const pijamasProducts = [
   },
   {
     code: "PJ-10",
-    title: "Piyama Vaca y Pollito Short",
+    title: "Pijama Vaca y Pollito Short",
     subcategory: "Short",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-vaca-pollito_lq7w84.jpg",
@@ -102,7 +102,7 @@ export const pijamasProducts = [
   },
   {
     code: "PJ-11",
-    title: "Piyama Looney Tunes Pantalón",
+    title: "Pijama Looney Tunes Pantalón",
     subcategory: "Pantalón",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-looney_tz2jez.jpg",
@@ -112,7 +112,7 @@ export const pijamasProducts = [
   },
   {
     code: "PJ-12",
-    title: "Piyama Pinky y Cerebro Pantalón",
+    title: "Pijama Pinky y Cerebro Pantalón",
     subcategory: "Pantalón",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-cerebro_ubogmj.jpg",
@@ -122,7 +122,7 @@ export const pijamasProducts = [
   },
   {
     code: "PJ-13",
-    title: "Piyama Finias y Fer Pantalón",
+    title: "Pijama Finias y Fer Pantalón",
     subcategory: "Pantalón",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-perry_fkxznj.jpg",
@@ -132,7 +132,7 @@ export const pijamasProducts = [
   },
   {
     code: "PJ-14",
-    title: "Piyama Johnny Bravo Pantalón",
+    title: "Pijama Johnny Bravo Pantalón",
     subcategory: "Pantalón",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-jhonny_wunt4q.jpg",

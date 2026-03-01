@@ -20,14 +20,14 @@ export default function HeroSection() {
           </div>
         </motion.div>
         <motion.div
-          className="hero__block hero__block--piyamas"
+          className="hero__block hero__block--pijamas"
           initial={heroBlockAnimation.initial}
           animate={heroBlockAnimation.animate}
           transition={{ ...heroBlockAnimation.transition, delay: 0.25 }}
         >
           <div className="hero__overlay">
-            <Link to="/piyamas" className="hero__btn">
-              Colección Piyamas
+            <Link to="/pijamas" className="hero__btn">
+              Colección Pijamas
             </Link>
           </div>
         </motion.div>

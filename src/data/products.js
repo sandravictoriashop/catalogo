@@ -34,7 +34,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-29",
-    title: "Bikini latidos de verano",
+    title: "Bikini Latidos de Verano",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rojo-corazon_aeor7e.jpg",
@@ -45,7 +45,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-04",
-    title: "Bikini selva menta",
+    title: "Bikini Selva Menta",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-plantas_r9k8vn.jpg",
@@ -75,7 +75,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-03",
-    title: "Bikini isla rosa",
+    title: "Bikini Isla Rosa",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-corazones_ejxbuq.jpg",
@@ -86,7 +86,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-06",
-    title: "Bikini bora bora",
+    title: "Bikini Bora Bora",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-plantas-blancas_ed12ja.jpg",
@@ -96,7 +96,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-07",
-    title: "Bikini ",
+    title: "Bikini",
     subcategory: "Bikini Arrecife Floral",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-azul-y-oscuto_dqqfgd.jpg",
@@ -106,7 +106,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-08",
-    title: "Bikini aurora",
+    title: "Bikini Aurora",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-amarillo_igr5vm.jpg",
@@ -116,7 +116,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-09",
-    title: "Bikini mandala",
+    title: "Bikini Mandala",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-flor-rosa_rjnqzr.jpg",
@@ -126,7 +126,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-10",
-    title: "Bikini selva negra",
+    title: "Bikini Selva Negra",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-blanco-negro_oen0cu.jpg",
@@ -136,7 +136,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-11",
-    title: "Bikini velvet love",
+    title: "Bikini Velvet Love",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-morado-completo_k01iwd.jpg",
@@ -166,7 +166,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-32",
-    title: "Bikini oliva real",
+    title: "Bikini Oliva Real",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-beige-brillante_gfq7ye.jpg",
@@ -176,7 +176,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-33",
-    title: "Bikini flamingo índigo",
+    title: "Bikini Flamingo Índigo",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-flamingo-indigo_t5v0br.jpg",
@@ -186,7 +186,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-34",
-    title: "Bikini fucsia love",
+    title: "Bikini Fucsia Love",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rosado-corazon_do42c1.jpg",
@@ -196,7 +196,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-21",
-    title: "Bikini dulce menta",
+    title: "Bikini Dulce Menta",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-menta_y13v55.jpg",
@@ -206,7 +206,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-14",
-    title: "Bikini buceo retro",
+    title: "Bikini Buceo Retro",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-arcoiris_qov1xl.jpg",
@@ -226,7 +226,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-19",
-    title: "Bikini blanco Girasol",
+    title: "Bikini Blanco Girasol",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-girasol_o8zcyj.jpg",
@@ -236,7 +236,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-30",
-    title: "Bikini rojo carmesí",
+    title: "Bikini Rojo Carmesí",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rojo-pasion_iygpsx.jpg",
@@ -266,7 +266,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-35",
-    title: "Bikini malibu",
+    title: "Bikini Malibu",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-fiesta-malibu_yycas6.jpg",
@@ -276,7 +276,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-16",
-    title: "Bikini escarlata",
+    title: "Bikini Escarlata",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rojo-completo_nv9p3w.jpg",
@@ -296,7 +296,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-18",
-    title: "Bikini blanco Catrina",
+    title: "Bikini Blanco Catrina",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-catrina_kx31bh.jpg",
@@ -336,7 +336,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-26",
-    title: "Enterizo Azul turquesa",
+    title: "Enterizo Azul Turquesa",
     subcategory: "Enterizo",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/entero-azul-petroleo_xvfr21.jpg",

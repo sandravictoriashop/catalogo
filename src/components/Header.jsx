@@ -8,7 +8,7 @@ import "./Header.css";
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [vestidosOpen, setVestidosOpen] = useState(false);
-  const [piyamasOpen, setPiyamasOpen] = useState(false);
+  const [pijamasOpen, setPijamasOpen] = useState(false);
   const [jumpersOpen, setJumpersOpen] = useState(false);
 
   const closeMenu = () => setMenuOpen(false);
@@ -99,37 +99,37 @@ export default function Header() {
           </div>
 
           <div
-            className="header__piyamas"
-            onMouseEnter={() => setPiyamasOpen(true)}
-            onMouseLeave={() => setPiyamasOpen(false)}
+            className="header__pijamas"
+            onMouseEnter={() => setPijamasOpen(true)}
+            onMouseLeave={() => setPijamasOpen(false)}
           >
             <Link
-              to="/piyamas"
+              to="/pijamas"
               onClick={closeMenu}
-              className="header__piyamas-trigger"
+              className="header__pijamas-trigger"
             >
-              Piyamas
+              Pijamas
             </Link>
             <div
-              className={`header__dropdown ${piyamasOpen ? "header__dropdown--open" : ""}`}
-              aria-hidden={!piyamasOpen}
+              className={`header__dropdown ${pijamasOpen ? "header__dropdown--open" : ""}`}
+              aria-hidden={!pijamasOpen}
             >
-              <Link to="/piyamas" onClick={closeMenu}>
+              <Link to="/pijamas" onClick={closeMenu}>
                 Ver todas
               </Link>
-              <Link to="/piyamas/pantalon" onClick={closeMenu}>
+              <Link to="/pijamas/pantalon" onClick={closeMenu}>
                 Pantalón
               </Link>
-              <Link to="/piyamas/short" onClick={closeMenu}>
+              <Link to="/pijamas/short" onClick={closeMenu}>
                 Short
               </Link>
             </div>
-            <div className="header__piyamas-sub">
-              <Link to="/piyamas/pantalon" onClick={closeMenu}>
-                Piyamas Pantalón
+            <div className="header__pijamas-sub">
+              <Link to="/pijamas/pantalon" onClick={closeMenu}>
+                Pijamas Pantalón
               </Link>
-              <Link to="/piyamas/short" onClick={closeMenu}>
-                Piyamas Short
+              <Link to="/pijamas/short" onClick={closeMenu}>
+                Pijamas Short
               </Link>
             </div>
           </div>

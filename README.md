@@ -1,4 +1,4 @@
-# Moda de Baño y Piyamas – Catálogo
+# Moda de Baño y Pijamas – Catálogo
 
 Web React (Vite) del catálogo: **3 productos por fila en desktop** y **1 por fila en móvil**, con el mismo diseño. Pensada para poder copiar secciones y crear más páginas de catálogo.
 
