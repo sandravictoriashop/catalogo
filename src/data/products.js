@@ -55,7 +55,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-05",
-    title: "Bikini rojo con estampado marino",
+    title: "Bikini Coralina",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rojo-azul_lzub2x.jpg",
@@ -75,7 +75,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-03",
-    title: "Bikini fucsia con estampado palmeras",
+    title: "Bikini isla rosa",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-corazones_ejxbuq.jpg",
@@ -86,7 +86,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-06",
-    title: "Bikini blanco con estampado palmeras negras",
+    title: "Bikini bora bora",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-plantas-blancas_ed12ja.jpg",
@@ -96,8 +96,8 @@ export const vestidosProducts = [
   },
   {
     code: "VB-07",
-    title: "Bikini azul estampado floral tropical",
-    subcategory: "Bikini",
+    title: "Bikini ",
+    subcategory: "Bikini Arrecife Floral",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-azul-y-oscuto_dqqfgd.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -106,7 +106,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-08",
-    title: "Bikini verde menta degradado colores pasteles",
+    title: "Bikini aurora",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-amarillo_igr5vm.jpg",
@@ -116,7 +116,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-09",
-    title: "Bikini fucsia estampado artístico",
+    title: "Bikini mandala",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-flor-rosa_rjnqzr.jpg",
@@ -126,7 +126,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-10",
-    title: "Bikini blanco y negro estampado animal print con hojas",
+    title: "Bikini selva negra",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-blanco-negro_oen0cu.jpg",
@@ -146,7 +146,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-12",
-    title: "Bikini blanco tropical-floral y tiras amarillas",
+    title: "Bikini Paraíso Frutal",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-hawai_bmwyht.jpg",
@@ -206,7 +206,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-14",
-    title: "Bikini blanco estampado casco traje buceo Arcoiris Marino",
+    title: "Bikini buceo retro",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-arcoiris_qov1xl.jpg",
@@ -216,7 +216,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-15",
-    title: "Bikini negro estampado de amuletos",
+    title: "Bikini Místico",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-negro-verde_d33grz.jpg",
@@ -246,7 +246,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-20",
-    title: "Bikini azul oscuro Jardín Exótico",
+    title: "Bikini Zafiro Floral",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-mora-azul_fjmqnl.jpg",
@@ -276,7 +276,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-16",
-    title: "Bikini Rojo pasion de boleros",
+    title: "Bikini escarlata",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rojo-completo_nv9p3w.jpg",
@@ -286,7 +286,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-17",
-    title: "Bikini Beige Natural",
+    title: "Bikini Champagne",
     subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-beige_tvqqlv.jpg",
@@ -326,7 +326,7 @@ export const vestidosProducts = [
   },
   {
     code: "VB-28",
-    title: "Enterizo Blanco Palmeras",
+    title: "Enterizo Palma Real",
     subcategory: "Enterizo",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/entero-blanco-palmeras_bzxt15.jpg",
