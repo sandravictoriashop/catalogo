@@ -20,7 +20,7 @@ export default function JumpersPage() {
 
   const pageTitle = subcategoryName ? `Jumper ${subcategoryName}` : 'Colección Jumpers';
   const pageDescription =
-    'Descubre nuestra línea de jumpers, diseñada para estilizar con naturalidad y brindar confort durante todo el día. Siluetas versátiles, acabados cuidados y una propuesta moderna para destacar con elegancia.';
+    'La libertad nunca se vio tan elegante. Nuestra colección de jumpers celebra el movimiento natural con siluetas fluidas que se adaptan a tu ritmo.';
 
   return (
     <>

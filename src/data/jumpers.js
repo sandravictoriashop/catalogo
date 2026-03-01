@@ -72,7 +72,7 @@ export const jumpersProducts = [
   },
   {
     code: "JP-08",
-    title: "Jumper Negro",
+    title: "Jumper Atenea",
     subcategory: "Largo",
     image: [
       "https://res.cloudinary.com/dgzwczlza/image/upload/jumper-negro_h1ynv4.jpg",
