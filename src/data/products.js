@@ -13,7 +13,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-23",
+    code: "VB-02",
     title: "Bikini Naranja Atardecer",
     subcategory: "Bikini",
     image:
@@ -23,7 +23,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-02",
+    code: "VB-03",
     title: "Bikini Menta Tropical",
     subcategory: "Bikini",
     image:
@@ -33,7 +33,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-29",
+    code: "VB-04",
     title: "Bikini Latidos de Verano",
     subcategory: "Bikini",
     image:
@@ -44,7 +44,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-04",
+    code: "VB-05",
     title: "Bikini Selva Menta",
     subcategory: "Bikini",
     image:
@@ -54,7 +54,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-05",
+    code: "VB-06",
     title: "Bikini Coralina",
     subcategory: "Bikini",
     image:
@@ -64,7 +64,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-13",
+    code: "VB-07",
     title: "Bikini Aura Marina",
     subcategory: "Bikini",
     image:
@@ -74,7 +74,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-03",
+    code: "VB-08",
     title: "Bikini Isla Rosa",
     subcategory: "Bikini",
     image:
@@ -85,7 +85,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-06",
+    code: "VB-09",
     title: "Bikini Bora Bora",
     subcategory: "Bikini",
     image:
@@ -95,7 +95,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-07",
+    code: "VB-10",
     title: "Bikini",
     subcategory: "Bikini Arrecife Floral",
     image:
@@ -105,7 +105,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-08",
+    code: "VB-11",
     title: "Bikini Aurora",
     subcategory: "Bikini",
     image:
@@ -115,7 +115,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-09",
+    code: "VB-12",
     title: "Bikini Mandala",
     subcategory: "Bikini",
     image:
@@ -125,7 +125,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-10",
+    code: "VB-13",
     title: "Bikini Selva Negra",
     subcategory: "Bikini",
     image:
@@ -135,7 +135,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-11",
+    code: "VB-14",
     title: "Bikini Velvet Love",
     subcategory: "Bikini",
     image:
@@ -145,7 +145,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-12",
+    code: "VB-15",
     title: "Bikini Paraíso Frutal",
     subcategory: "Bikini",
     image:
@@ -155,7 +155,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-31",
+    code: "VB-16",
     title: "Bikini Jardín Turquesa",
     subcategory: "Bikini",
     image:
@@ -165,7 +165,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-32",
+    code: "VB-17",
     title: "Bikini Oliva Real",
     subcategory: "Bikini",
     image:
@@ -175,7 +175,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-33",
+    code: "VB-18",
     title: "Bikini Flamingo Índigo",
     subcategory: "Bikini",
     image:
@@ -185,7 +185,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-34",
+    code: "VB-19",
     title: "Bikini Fucsia Love",
     subcategory: "Bikini",
     image:
@@ -195,7 +195,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-21",
+    code: "VB-20",
     title: "Bikini Dulce Menta",
     subcategory: "Bikini",
     image:
@@ -205,7 +205,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-14",
+    code: "VB-21",
     title: "Bikini Buceo Retro",
     subcategory: "Bikini",
     image:
@@ -215,7 +215,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-15",
+    code: "VB-22",
     title: "Bikini Místico",
     subcategory: "Bikini",
     image:
@@ -225,7 +225,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-19",
+    code: "VB-23",
     title: "Bikini Blanco Girasol",
     subcategory: "Bikini",
     image:
@@ -235,7 +235,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-30",
+    code: "VB-24",
     title: "Bikini Rojo Carmesí",
     subcategory: "Bikini",
     image:
@@ -245,7 +245,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-20",
+    code: "VB-25",
     title: "Bikini Zafiro Floral",
     subcategory: "Bikini",
     image:
@@ -255,7 +255,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-22",
+    code: "VB-26",
     title: "Bikini Tropical Rojo",
     subcategory: "Bikini",
     image:
@@ -265,7 +265,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-35",
+    code: "VB-27",
     title: "Bikini Malibu",
     subcategory: "Bikini",
     image:
@@ -275,7 +275,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-16",
+    code: "VB-28",
     title: "Bikini Escarlata",
     subcategory: "Bikini",
     image:
@@ -285,7 +285,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-17",
+    code: "VB-29",
     title: "Bikini Champagne",
     subcategory: "Bikini",
     image:
@@ -295,7 +295,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-18",
+    code: "VB-30",
     title: "Bikini Blanco Catrina",
     subcategory: "Bikini",
     image:
@@ -305,7 +305,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-24",
+    code: "VB-31",
     title: "Asoleadores",
     subcategory: "Asoleador",
     image:
@@ -315,7 +315,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-25",
+    code: "VB-32",
     title: "Enterizo Selva de Flamingos",
     subcategory: "Enterizo",
     image:
@@ -325,7 +325,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-28",
+    code: "VB-33",
     title: "Enterizo Palma Real",
     subcategory: "Enterizo",
     image:
@@ -335,7 +335,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-26",
+    code: "VB-34",
     title: "Enterizo Azul Turquesa",
     subcategory: "Enterizo",
     image:
@@ -345,7 +345,7 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
-    code: "VB-27",
+    code: "VB-35",
     title: "Enterizo Tigre de Rosas",
     subcategory: "Enterizo",
     image:
