@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Header from "../components/Header";
 import CatalogProductCard from "../components/CatalogProductCard";
 import Footer from "../components/Footer";
+import SectionYourStyle from "../components/SectionYourStyle";
 import { pijamasProducts } from "../data/pijamas";
 import { staggerContainer, staggerItem, staggerViewport } from "../animations";
 import "./CatalogPage.css";
@@ -81,6 +82,11 @@ export default function PijamasPage() {
           </motion.section>
         ))}
       </main>
+      <SectionYourStyle
+        title="Pijamas personalizadas"
+        text="Si te gusta un estampado pero lo quieres en short o pantalón, lo hacemos posible."
+        buttonText="Escríbenos por Whatsapp"
+      />
       <Footer />
     </>
   );

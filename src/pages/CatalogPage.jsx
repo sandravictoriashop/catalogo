@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Header from "../components/Header";
 import CatalogProductCard from "../components/CatalogProductCard";
 import Footer from "../components/Footer";
+import SectionYourStyle from "../components/SectionYourStyle";
 import { vestidosProducts } from "../data/products";
 import { staggerContainer, staggerItem, staggerViewport } from "../animations";
 import "./CatalogPage.css";
@@ -85,6 +86,11 @@ export default function CatalogPage() {
           </motion.section>
         ))}
       </main>
+      <SectionYourStyle
+        title="Vestidos de baño personalizados"
+        text="Realizamos diseños personalizados según tu gusto"
+        buttonText="Escríbenos por Whatsapp"
+      />
       <Footer />
     </>
   );
