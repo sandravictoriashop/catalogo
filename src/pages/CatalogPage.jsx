@@ -87,7 +87,7 @@ export default function CatalogPage() {
         ))}
       </main>
       <SectionYourStyle
-        title="Vestidos de baño personalizados"
+        title="Vestidos de Baño personalizados"
         text="Realizamos diseños personalizados según tu gusto"
         buttonText="Escríbenos por Whatsapp"
       />
