@@ -8,7 +8,7 @@ export const vestidosProducts = [
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-amarillo_kbsv7y.jpg",
     sizes: ["S", "M", "L", "XL"],
     // oldPrice: "65.000",
-    price: "90.000",
+    price: "95.000",
     isOnSale: true,
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
@@ -19,7 +19,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-naranja_ukvwal.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -29,7 +29,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-menta-azul_aaqdoz.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -39,7 +39,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rojo-corazon_aeor7e.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     isOnSale: true,
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
@@ -50,7 +50,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-plantas_r9k8vn.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -70,7 +70,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-brilla_h5wjmd.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -80,7 +80,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-corazones_ejxbuq.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "85.000",
     isOnSale: true,
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
@@ -91,7 +91,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-plantas-blancas_ed12ja.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -101,7 +101,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-azul-y-oscuto_dqqfgd.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -111,7 +111,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-amarillo_igr5vm.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -121,7 +121,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-flor-rosa_rjnqzr.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "85.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -131,7 +131,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-blanco-negro_oen0cu.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -141,7 +141,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-morado-completo_k01iwd.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "80.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -151,7 +151,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-hawai_bmwyht.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "80.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -161,7 +161,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-rosas_zlh391.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "80.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -171,7 +171,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-beige-brillante_gfq7ye.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "80.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -181,7 +181,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-flamingo-indigo_t5v0br.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "80.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -191,7 +191,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rosado-corazon_do42c1.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "80.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -201,7 +201,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-menta_y13v55.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -211,7 +211,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-arcoiris_qov1xl.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "85.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -221,7 +221,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-negro-verde_d33grz.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "85.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -231,7 +231,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-girasol_o8zcyj.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "85.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -241,7 +241,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rojo-pasion_iygpsx.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -251,7 +251,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-mora-azul_fjmqnl.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -261,7 +261,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rojo-negro_k12z9t.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -271,7 +271,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-fiesta-malibu_yycas6.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -281,7 +281,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rojo-completo_nv9p3w.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "95.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -291,7 +291,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-beige_tvqqlv.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "85.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -301,7 +301,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-catrina_kx31bh.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "80.000",
+    price: "85.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
