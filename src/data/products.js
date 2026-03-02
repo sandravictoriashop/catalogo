@@ -96,8 +96,8 @@ export const vestidosProducts = [
   },
   {
     code: "VB-10",
-    title: "Bikini",
-    subcategory: "Bikini Arrecife Floral",
+    title: "Bikini Arrecife Floral",
+    subcategory: "Bikini",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-azul-y-oscuto_dqqfgd.jpg",
     sizes: ["S", "M", "L", "XL"],
