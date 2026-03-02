@@ -126,7 +126,7 @@ export default function CatalogProductCard({ product }) {
         rel="noopener noreferrer"
         className="catalog-product-card__btn"
       >
-        Pregunta por Whatsapp
+        {code?.startsWith('JP-') ? 'Quiero mi Jumper' : 'Pregunta por Whatsapp'}
       </a>
     </article>
   );
