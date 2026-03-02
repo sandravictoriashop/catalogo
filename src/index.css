@@ -36,6 +36,7 @@ html {
 
 body {
   margin: 0;
+  padding-top: 4.5rem;
   font-family: var(--font-serif);
   font-size: 1rem;
   background-color: var(--color-bg);
@@ -70,6 +71,10 @@ img {
 }
 
 @media (min-width: 768px) {
+  body {
+    padding-top: 4rem;
+  }
+
   .section {
     padding: 5rem 2rem;
   }
