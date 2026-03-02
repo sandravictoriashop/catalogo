@@ -7,7 +7,7 @@ export const jumpersProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/jumper-verde_awxlnp.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "140.000",
+    price: "130.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -17,7 +17,7 @@ export const jumpersProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/jumper-blanco_noq9mn.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "140.000",
+    price: "130.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -27,7 +27,7 @@ export const jumpersProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/jumper-vinotinto_jk476j.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "140.000",
+    price: "130.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -37,7 +37,7 @@ export const jumpersProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/jumper-rosa_uak21h.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "140.000",
+    price: "130.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -47,7 +47,7 @@ export const jumpersProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/jumper-azul_gmnrxj.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "140.000",
+    price: "130.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -57,7 +57,7 @@ export const jumpersProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/jumper-gris_khvx9n.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "140.000",
+    price: "130.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -67,7 +67,7 @@ export const jumpersProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/jumper-cafe_jencup.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "140.000",
+    price: "130.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
