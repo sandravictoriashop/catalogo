@@ -1,36 +1,47 @@
-import { useParams } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import Header from '../components/Header';
-import CatalogProductCard from '../components/CatalogProductCard';
-import Footer from '../components/Footer';
-import { jumpersProducts } from '../data/jumpers';
-import { staggerContainer, staggerItem, staggerViewport } from '../animations';
-import './CatalogPage.css';
+import { useParams } from "react-router-dom";
+import { motion } from "framer-motion";
+import Header from "../components/Header";
+import CatalogProductCard from "../components/CatalogProductCard";
+import Footer from "../components/Footer";
+import { jumpersProducts } from "../data/jumpers";
+import { staggerContainer, staggerItem, staggerViewport } from "../animations";
+import "./CatalogPage.css";
 
 /** Subcategoría en URL → nombre para mostrar */
-const SUBCATEGORY_LABELS = { capri: 'Brisa Essential', largo: 'Edición Estelar' };
+const SUBCATEGORY_LABELS = {
+  capri: "Brisa Essential",
+  largo: "Edición Estelar",
+};
 
 export default function JumpersPage() {
   const { subcategory: subcategorySlug } = useParams();
-  const subcategoryName = subcategorySlug ? SUBCATEGORY_LABELS[subcategorySlug.toLowerCase()] : null;
+  const subcategoryName = subcategorySlug
+    ? SUBCATEGORY_LABELS[subcategorySlug.toLowerCase()]
+    : null;
 
   const sections = subcategoryName
     ? [
         {
           name: SUBCATEGORY_LABELS[subcategorySlug.toLowerCase()],
           products: jumpersProducts.filter(
-            (p) => (p.subcategory ?? '').toLowerCase() === subcategorySlug.toLowerCase()
+            (p) =>
+              (p.subcategory ?? "").toLowerCase() ===
+              subcategorySlug.toLowerCase(),
           ),
         },
       ]
     : Object.keys(SUBCATEGORY_LABELS).map((key) => ({
         name: SUBCATEGORY_LABELS[key],
-        products: jumpersProducts.filter((p) => (p.subcategory ?? '').toLowerCase() === key),
+        products: jumpersProducts.filter(
+          (p) => (p.subcategory ?? "").toLowerCase() === key,
+        ),
       }));
 
-  const pageTitle = subcategoryName ? `${subcategoryName}` : 'Colección Jumpers';
+  const pageTitle = subcategoryName
+    ? `${subcategoryName}`
+    : "Colección Jumpers";
   const pageDescription =
-    'La libertad nunca se vio tan elegante. Nuestra colección de jumpers celebra el movimiento natural con siluetas fluidas que se adaptan a tu ritmo.';
+    "La libertad nunca se vio tan elegante. Nuestra colección de jumpers celebra el movimiento natural con siluetas fluidas que se adaptan a tu ritmo.";
 
   return (
     <>
@@ -48,20 +59,24 @@ export default function JumpersPage() {
           className="catalog-page__description"
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.45, ease: [0.25, 0.4, 0.25, 1], delay: 0.05 }}
+          transition={{
+            duration: 0.45,
+            ease: [0.25, 0.4, 0.25, 1],
+            delay: 0.05,
+          }}
         >
           {pageDescription}
         </motion.p>
         {sections.map(({ name, products }) => (
           <motion.section
-            key={name ?? 'all'}
+            key={name ?? "all"}
             className="catalog-page__subcategory"
             variants={staggerContainer}
             initial="initial"
             whileInView="whileInView"
             viewport={staggerViewport}
           >
-            {(!subcategoryName && name) && (
+            {!subcategoryName && name && (
               <motion.h2
                 className="catalog-page__subcategory-title"
                 initial={{ opacity: 0, y: 12 }}
@@ -72,7 +87,10 @@ export default function JumpersPage() {
               </motion.h2>
             )}
 
-            <motion.div className="catalog-page__grid" variants={staggerContainer}>
+            <motion.div
+              className="catalog-page__grid"
+              variants={staggerContainer}
+            >
               {products.map((product) => (
                 <motion.div key={product.code} variants={staggerItem}>
                   <CatalogProductCard product={product} />

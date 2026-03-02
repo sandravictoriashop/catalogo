@@ -52,6 +52,7 @@ export default function Header() {
             <span className="header__hamburger-bar" />
             <span className="header__hamburger-bar" />
           </button>
+          <div className="header__nav-scroll">
           <Link to="/" onClick={closeMenu}>
             Inicio
           </Link>
@@ -175,6 +176,7 @@ export default function Header() {
               Ofertas
             </Link>
           )}
+          </div>
         </nav>
       </div>
 
