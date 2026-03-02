@@ -141,7 +141,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-morado-completo_k01iwd.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "80.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -151,7 +151,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-hawai_bmwyht.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "80.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -161,7 +161,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-verde-rosas_zlh391.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "80.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -171,7 +171,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-beige-brillante_gfq7ye.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "80.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -181,7 +181,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-flamingo-indigo_t5v0br.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "80.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -191,7 +191,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-rosado-corazon_do42c1.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "80.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -301,7 +301,7 @@ export const vestidosProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-catrina_kx31bh.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "90.000",
+    price: "80.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
