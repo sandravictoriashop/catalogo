@@ -275,6 +275,66 @@ export const vestidosProducts = [
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
+    code: "VB-36",
+    title: "Bikini Estrella Radiante",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-estrella-radiante_ky1gwr.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "95.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-37",
+    title: "Bikini Brisa Mandarina",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-brisa-mandarina_chpwbb.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "95.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-38",
+    title: "Bikini Dulce Idilio",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-dulce-idilio_jvpjd7.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "95.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-39",
+    title: "Bikini Amazonas",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-amazonas_dw0jun.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "95.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-40",
+    title: "Bikini Naranja Tropical",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-naranja-tropical_ppxone.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "95.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "VB-41",
+    title: "Bikini Amuleto",
+    subcategory: "Bikini",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/bikini-amuleto_y5wsmi.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "95.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
     code: "VB-28",
     title: "Bikini Escarlata",
     subcategory: "Bikini",
