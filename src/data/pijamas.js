@@ -3,7 +3,7 @@ export const pijamasProducts = [
   {
     code: "PJ-01",
     title: "Pijama Elmo Pantalón",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-elmo_czmtub.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -13,7 +13,7 @@ export const pijamasProducts = [
   {
     code: "PJ-02",
     title: "Pijama Mafalda Pantalón",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-malfalda_ycir2o.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -23,7 +23,7 @@ export const pijamasProducts = [
   {
     code: "PJ-03",
     title: "Pijama Snoppy Pantalón",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-snoopy_ya1hrz.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -33,7 +33,7 @@ export const pijamasProducts = [
   {
     code: "PJ-04",
     title: "Pijama Pato Donald Pantalón",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-donald_lgvahh.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -43,7 +43,7 @@ export const pijamasProducts = [
   {
     code: "PJ-05",
     title: "Pijama Dexter Short",
-    subcategory: "Short",
+    subcategory: "short",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-dexter_z3tuoa.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -53,7 +53,7 @@ export const pijamasProducts = [
   {
     code: "PJ-06",
     title: "Pijama Coraje Pantalón",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-coraje_euvyqx.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -63,7 +63,7 @@ export const pijamasProducts = [
   {
     code: "PJ-07",
       title: "Pijama Chicas Super Poderosas Short",
-    subcategory: "Short",
+    subcategory: "short",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-burbuja_yksfqk.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -73,7 +73,7 @@ export const pijamasProducts = [
   {
     code: "PJ-08",
     title: "Pijama Piolin Pantalón",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-piolin_s6lsly.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -83,7 +83,7 @@ export const pijamasProducts = [
   {
     code: "PJ-09",
     title: "Pijama Rick Short",
-    subcategory: "Short",
+    subcategory: "short",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-ricky_fzkwvo.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -93,7 +93,7 @@ export const pijamasProducts = [
   {
     code: "PJ-10",
     title: "Pijama Vaca y Pollito Short",
-    subcategory: "Short",
+    subcategory: "short",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-vaca-pollito_lq7w84.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -103,7 +103,7 @@ export const pijamasProducts = [
   {
     code: "PJ-11",
     title: "Pijama Looney Tunes Pantalón",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-looney_tz2jez.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -113,7 +113,7 @@ export const pijamasProducts = [
   {
     code: "PJ-12",
     title: "Pijama Pinky y Cerebro Pantalón",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-cerebro_ubogmj.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -123,7 +123,7 @@ export const pijamasProducts = [
   {
     code: "PJ-13",
     title: "Pijama Finias y Fer Pantalón",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-perry_fkxznj.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -133,7 +133,7 @@ export const pijamasProducts = [
   {
     code: "PJ-14",
     title: "Pijama Johnny Bravo Pantalón",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-jhonny_wunt4q.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -143,7 +143,7 @@ export const pijamasProducts = [
   {
     code: "PJ-15",
     title: "Pijama Amor Fucsia",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-amor-fucsia_yrgqcq.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -153,7 +153,7 @@ export const pijamasProducts = [
   {
     code: "PJ-16",
     title: "Pijama Verde Corazón",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-verde-corazon_h0myq9.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -163,7 +163,7 @@ export const pijamasProducts = [
   {
     code: "PJ-17",
     title: "Pijama Rojo Corazón",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-rojo-corazon_nwqnkn.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -173,7 +173,7 @@ export const pijamasProducts = [
   {
     code: "PJ-18",
     title: "Pijama Love Rojo",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-love-rojo_cvtxjx.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -183,7 +183,7 @@ export const pijamasProducts = [
   {
     code: "PJ-19",
     title: "Pijama Jardinera Vino Tinto",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-jardinera-vinotinto_t3iizo.jpg",
     sizes: ["S", "M", "L", "XL"],
@@ -193,7 +193,7 @@ export const pijamasProducts = [
   {
     code: "PJ-20",
     title: "Pijama Jardinera Azul Rey",
-    subcategory: "Pantalón",
+    subcategory: "pantalon",
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-jardinera-azul-rey_qohyci.jpg",
     sizes: ["S", "M", "L", "XL"],
