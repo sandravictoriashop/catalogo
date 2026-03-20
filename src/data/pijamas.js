@@ -147,7 +147,7 @@ export const pijamasProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-amor-fucsia_yrgqcq.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "78.000",
+    price: "68.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -157,7 +157,7 @@ export const pijamasProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-verde-corazon_h0myq9.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "78.000",
+    price: "68.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -167,7 +167,7 @@ export const pijamasProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-rojo-corazon_nwqnkn.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "78.000",
+    price: "68.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -177,7 +177,7 @@ export const pijamasProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-love-rojo_cvtxjx.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "78.000",
+    price: "68.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -187,7 +187,7 @@ export const pijamasProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-jardinera-vinotinto_t3iizo.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "78.000",
+    price: "68.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
   {
@@ -197,7 +197,7 @@ export const pijamasProducts = [
     image:
       "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-jardinera-azul-rey_qohyci.jpg",
     sizes: ["S", "M", "L", "XL"],
-    price: "78.000",
+    price: "68.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
 ];
