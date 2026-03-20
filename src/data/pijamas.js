@@ -140,4 +140,64 @@ export const pijamasProducts = [
     price: "78.000",
     whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
   },
+  {
+    code: "PJ-15",
+    title: "Pijama Amor Fucsia",
+    subcategory: "Pantalón",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-amor-fucsia_yrgqcq.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "78.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "PJ-16",
+    title: "Pijama Verde Corazón",
+    subcategory: "Pantalón",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-verde-corazon_h0myq9.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "78.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "PJ-17",
+    title: "Pijama Rojo Corazón",
+    subcategory: "Pantalón",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-rojo-corazon_nwqnkn.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "78.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "PJ-18",
+    title: "Pijama Love Rojo",
+    subcategory: "Pantalón",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-love-rojo_cvtxjx.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "78.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "PJ-19",
+    title: "Pijama Jardinera Vino Tinto",
+    subcategory: "Pantalón",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-jardinera-vinotinto_t3iizo.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "78.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
+  {
+    code: "PJ-20",
+    title: "Pijama Jardinera Azul Rey",
+    subcategory: "Pantalón",
+    image:
+      "https://res.cloudinary.com/dgzwczlza/image/upload/pijama-jardinera-azul-rey_qohyci.jpg",
+    sizes: ["S", "M", "L", "XL"],
+    price: "78.000",
+    whatsappMessage: "Hola me interesa el {{code}} - {{title}}. ({{image}})",
+  },
 ];
