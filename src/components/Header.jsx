@@ -33,6 +33,7 @@ export default function Header() {
           aria-expanded={menuOpen}
           aria-label={menuOpen ? "Cerrar menú" : "Abrir menú"}
         >
+          <span className="header__menu-text">Menú</span>
           <span className="header__hamburger-bar" />
           <span className="header__hamburger-bar" />
           <span className="header__hamburger-bar" />
