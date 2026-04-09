@@ -43,7 +43,6 @@
 /* Hamburguesa: solo en móvil */
 .header__hamburger {
   display: none;
-  display: flex;
   align-items: center;
   justify-content: center;
   width: 44px;
